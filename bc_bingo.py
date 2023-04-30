@@ -50,7 +50,10 @@ class BingoBoard:
         # group to number of choices and generate from pool
         chosen = []
         for (t, c), grping in itertools.groupby(pool, pattr):
-            chosen += random.choices(list(grping), k=c)
+            grping = list(grping)
+            assert len(grping) >= c, \
+                    f"Group {t} has insufficient length to sample {c} items"
+            chosen += random.sample(grping, k=c)
 
         return [ch["square"] for ch in chosen]
 
