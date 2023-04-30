@@ -2,6 +2,7 @@
 import glob
 import random
 import csv
+import time
 import itertools
 import pprint
 from enum import IntFlag, auto
@@ -23,19 +24,19 @@ class BingoBoard:
         def __repr__(self):
             return f"({self.text}: {str(self.state)})"
 
-    def __init__(self, option_pool, ncols=5, nrows=5):
+    def __init__(self, option_pool, seed=0, ncols=5, nrows=5):
         self.size = (ncols, nrows)
         self.reset(*self.size)
 
-        #self.pool = [f"Bingo Opt {i:03d}" for i in range(1000)]
-        #self.pool = self._init_pool("segments/segment_1.csv")
+        self._seed = seed
         self.pool = self._init_pool(option_pool)
 
     def _init_pool(self, fname):
         with open(fname, "r") as csvfile:
             return [*csv.DictReader(csvfile)]
 
-    def sample_pool(self, segment_index):
+    def sample_pool(self, segment_index, seed=None):
+        random.seed(seed or self._seed)
         # get groupings and choices
         def pattr(elem):
             return (elem["type"], int(elem["choices"] or "1"))
@@ -120,8 +121,14 @@ import flask
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
-def render_index():
+@app.route("/", defaults={"seed": None})
+@app.route("/<seed>")
+def render_index(seed):
+    if seed is not None:
+        seed = int.from_bytes(str(seed).encode("utf8"), byteorder="big")
+    else:
+        seed = int(time.time())
+
     from htmlBuilder import tags, attributes
     segments = {int(f.replace(".csv", "").split("_")[-1]): f
                     for f in glob.glob("segments/segment_*.csv")}
@@ -131,8 +138,9 @@ def render_index():
     ]
 
     body = [
+        tags.Div([], [f"Seed: {seed}"]),
         tags.Ul([],
-            [tags.Li([], tags.A([attributes.Href(f"segment/{seg}")],
+            [tags.Li([], tags.A([attributes.Href(f"segment/{seed}/{seg}")],
                                 f"Segment {seg}"))
                 for seg in sorted(segments)]
         )
@@ -145,9 +153,12 @@ def render_index():
 
     return flask.render_template_string(index)
 
-@app.route("/segment/<seg>")
-def render_board(seg):
-    board = BingoBoard(f"segments/segment_{seg}.csv")
+@app.route("/segment/", defaults={"seed": None, "seg": "1"})
+@app.route("/segment/<seed>", defaults={"seed": None})
+@app.route("/segment/<seed>/<seg>")
+def render_board(seg, seed):
+    print(seed)
+    board = BingoBoard(f"segments/segment_{seg}.csv", seed=seed)
     board.generate(int(seg))
 
     return flask.render_template_string(board.render())
