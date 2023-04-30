@@ -31,8 +31,6 @@ class BingoBoard:
         #self.pool = self._init_pool("segments/segment_1.csv")
         self.pool = self._init_pool(option_pool)
 
-        self.generate()
-
     def _init_pool(self, fname):
         with open(fname, "r") as csvfile:
             return [*csv.DictReader(csvfile)]
@@ -57,8 +55,8 @@ class BingoBoard:
 
         return [ch["square"] for ch in chosen]
 
-    def generate(self):
-        selection = self.sample_pool(1)
+    def generate(self, segment):
+        selection = self.sample_pool(segment)
         random.shuffle(selection)
 
         for col in self._board:
@@ -150,5 +148,6 @@ def render_index():
 @app.route("/segment/<seg>")
 def render_board(seg):
     board = BingoBoard(f"segments/segment_{seg}.csv")
+    board.generate(int(seg))
 
     return flask.render_template_string(board.render())
