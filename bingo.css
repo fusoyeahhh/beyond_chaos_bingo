@@ -16,7 +16,7 @@
   padding: 10px;
 
   text-align: center;
-  font-size: 14pt;
+  font-size: 24pt;
 
   /*resize: vertical;*/
   display: flex;
@@ -42,6 +42,16 @@
 .counter {
   display: flex;
   padding: 10px;
+  font-size: 30pt;
+}
+
+.counter.miab {
+  float: left;
+}
+
+.counter.death {
+  float: right;
+  right: 0px;
 }
 
 button {

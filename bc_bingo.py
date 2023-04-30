@@ -81,7 +81,7 @@ class BingoBoard:
         from htmlBuilder import tags, attributes
         _name = name.replace("_", " ")
 
-        return tags.Div([attributes.Class("counter")], [
+        return tags.Div([attributes.Class(f"counter {name}")], [
             tags.Button([attributes.Onclick(f"{func}(true);")], f"inc {_name}"),
             tags.Button([attributes.Onclick(f"{func}(false);")], f"dec {_name}"),
             tags.Div([attributes.Onclick(func)], _name),
