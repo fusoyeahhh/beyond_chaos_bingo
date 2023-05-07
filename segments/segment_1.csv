@@ -1,115 +1,127 @@
 index,square,segment,segment_index,choices,type
 0,Don't Game Over or Reset,Segment 1 - (Start Through Ultros 2),1,,free
-1,Mega Volt or Missile,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-2,Tek Laser or Blizzard,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-3,Giga Volt or Aqua Rake,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-4,Elf Fire or Grav Bomb,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-5,Confusion or Confuser,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-6,Sonic Boom or Shimsham,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-7,Scar Beam or Acid Rain,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-8,Snowball or Evil Toot,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-9,Raid or Blaze,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-10,Any Lv.X Lore,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-11,Virite or Net,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-12,El Nino or Cleansweep,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-13,Tentacle or Specter,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-14,Schiller or Magnitude8,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-15,Fire/Ice/Bolt,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-16,Fire2/Ice2/Bolt2,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-17,Mute or Muddle,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-18,Poison or Drain,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-19,Demi or Quartr,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-20,Exploder or Pep Up,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-21,Pois. Frog or Shock Wave,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-22,Condemned or Roulette,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
-23,Stop or Seizure Special,Segment 1 - (Start Through Ultros 2),1,1,Enemy Specials
-24,Poison or Imp Special,Segment 1 - (Start Through Ultros 2),1,1,Enemy Specials
-25,Zombie or Petrify Special,Segment 1 - (Start Through Ultros 2),1,1,Enemy Specials
-26,Condemed or Confuse Special,Segment 1 - (Start Through Ultros 2),1,1,Enemy Specials
-27,Vanish or Image Special,Segment 1 - (Start Through Ultros 2),1,1,Enemy Specials
-28,Shell or Protect Special,Segment 1 - (Start Through Ultros 2),1,1,Enemy Specials
-29,Absorb HP or MP Special,Segment 1 - (Start Through Ultros 2),1,1,Enemy Specials
-30,Have X-Potion,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-31,Have X-Ether,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-32,Have 99 Tonics,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-33,Have 99 Antidote,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-34,Have 99 Eyedrop,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-35,Have 99 Echo Screen,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-36,Have Elixir,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-37,Have Ether,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-38,Have Magicite,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-39,Have Tincture,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-40,Have 3 Skean/Edge Types,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-41,Have Ninja Star,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-42,Have 6 Different Tools,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-43,"Have 50,000gp",Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-44,Have 99 Dried Meat,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-45,Have Warp Stone,Segment 1 - (Start Through Ultros 2),1,4,Items/Resources
-46,Have Crystal Orb or Muscle Belt,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-47,Have Ribbon or Relic Ring,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-48,Have Safety Bit or Memento Ring,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-49,Have Nutkin Suit or BehemothSuit,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-50,Have Dragon Horn or Tintinibar,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-51,Have Green Beret or Bard's Hat,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-52,Have Red Cap or Imp Halberd,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-53,Have Gaia Gear or Cherub Down,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-54,Have Guardian or ThiefKnife,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-55,Have Magus Hat and White Dress,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-56,Have Falchion or Epee,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-57,Have White Cape or Peace Ring,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-58,Have Hyper Wrist or RunningShoes,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-59,Have Stout Spear or Trident,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-60,Have an Elemental Sword,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-61,Have Genji Glove or Gauntlet,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-62,Have 2 Elemental Rods,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-63,Have Full Mithril Armor Set,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-64,Have an Item w/ Rogue Status,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-65,Have a Brush,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-66,Have Poison Claw or Fire Knuckle,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-67,Have Rune Edge,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-68,Have Sneak Ring,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-69,Have Cards or Dice,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-70,Have Earrings or Atlas Armlet,Segment 1 - (Start Through Ultros 2),1,5,Equipment/Relics
-71,Check all Chests in S. Figaro,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-72,Check all Chests in S. Figaro Cave,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-73,Ride a Chocobo from Each Stable,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-74,Loop in Lete River 5 Times,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-75,Use Magicite in a Boss Battle,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-76,"See ""Need MP"" Message",Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-77,See a Weapon Proc,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-78,Recruit Shadow Twice,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-79,Have Everyone Poisoned at Once,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-80,Check all Chests in Narshe Cave,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-81,Buy All Items in 5 Shops,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-82,"Spend 20,000gp in One Purchase",Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-83,Kill 3 Types of Enemy w/ Revivify,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-84,Learn a Spell from an Item,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-85,See Shadow Depart After Battle,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-86,Recruit Two Ghosts,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-87,Sell 2 Things for 1gp,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-88,"""Hit"" the Box in the Imperial Camp",Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-89,Check the Doma Jar,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-90,Break 6 Different Items,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-91,Use a Desperation Attack,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
-92,Never Use Tonic or Dried Meat,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-93,Never Buy Fenix Down,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-94,Never Recruit Shadow,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-95,Never Check Equipment Info,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-96,Never Buy Relics,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-97,Never Buy Armor/Weapons,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-98,Never Back Row a Character,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-99,Always Have Open Character Slot*,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-100,Never Visit Mobliz,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-101,Never Visit S. Figaro,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-102,Never Sell Anything,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-103,Never Ride Chocobos,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-104,Never Have Level 14+ Character,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-105,Never Buy Shirukens,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-106,Never Use a Tent,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-107,Never Break an Item,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-108,Never Visit Kolingen,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-109,Never Run with all Characters,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-110,Everyone Always Has Open Relic Slot,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-111,Never Cast Cure/2/3,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-112,Never Use Smoke Bomb,Segment 1 - (Start Through Ultros 2),1,4,Conducts
-113,Always Use 1 Item Every Battle,Segment 1 - (Start Through Ultros 2),1,4,Conducts
+1,Enemy Uses Mega Volt or Missile,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+2,Enemy Uses Tek Laser or Blizzard,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+3,Enemy Uses Giga Volt or Aqua Rake,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+4,Enemy Uses Elf Fire or Grav Bomb,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+5,Enemy Uses Confusion or Confuser,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+6,Enemy Uses Sonic Boom or Shimsham,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+7,Enemy Uses Scar Beam or Acid Rain,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+8,Enemy Uses Snowball or Stone,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+9,Enemy Uses Raid or Blaze,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+10,Enemy Uses Any Lv.X Lore,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+11,Enemy Uses Virite or Net,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+12,Enemy Uses El Nino or Cleansweep,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+13,Enemy Uses Tentacle or Specter,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+14,Enemy Uses Schiller or Magnitude8,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+15,"Enemy Uses Fire, Ice, or Bolt",Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+16,"Enemy Uses Fire 2, Ice 2, or Bolt 2",Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+17,Enemy Uses Mute or Muddle,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+18,Enemy Uses Poison or Antdot,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+19,Enemy Uses Demi or Quartr,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+20,Enemy Uses Exploder or Pep Up,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+21,Enemy Uses Pois. Frog or Shock Wave,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+22,Enemy Uses Condemned or Roulette,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+23,Enemy Uses Slow or Haste,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+24,Enemy Uses Evil Toot or Disaster,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+25,Enemy Uses Drain or Osmose,Segment 1 - (Start Through Ultros 2),1,6,Skills/Spells
+26,Get Hit by a Regen or Seizure Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+27,Get Hit by a Poison or Imp Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+28,Get Hit by a Zombie or Petrify Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+29,Get Hit by a Condemed or Confuse Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+30,Get Hit by a Vanish or Image Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+31,Get Hit by a Shell or Protect Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+32,Get Hit by a Absorb HP or MP Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+33,Get Hit by a Darkness or Berserk Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+34,Get Hit by a Near Death or Stop Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+35,Get Hit by a Slow or Haste Special,Segment 1 - (Start Through Ultros 2),1,2,Enemy Specials
+36,Have X-Potion,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+37,Have Remedy,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+38,Have 99 Tonics,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+39,Have 99 Antidote,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+40,Have 99 Eyedrop,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+41,Have 99 Echo Screen,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+42,Have Elixir,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+43,Have Ether,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+44,Have Magicite,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+45,Have Tincture,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+46,Have 4 Skean/Edge Types,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+47,Have Ninja Star,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+48,Have 6 Different Tools,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+49,"Have 50,000gp",Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+50,Have 99 Dried Meat,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+51,Have Warp Stone,Segment 1 - (Start Through Ultros 2),1,3,Items/Resources
+52,Have Crystal Orb or Muscle Belt,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+53,Have Ribbon or Relic Ring,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+54,Have Safety Bit or Memento Ring,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+55,Have Nutkin Suit or BehemothSuit,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+56,Have Dragon Horn or Tintinibar,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+57,Have Green Beret or Bard's Hat,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+58,Have Red Cap or Imp Halberd,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+59,Have Gaia Gear or Cherub Down,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+60,Have Guardian or ThiefKnife,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+61,Have Magus Hat AND White Dress,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+62,Have Falchion or Epee,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+63,Have White Cape or Peace Ring,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+64,Have Hyper Wrist or RunningShoes,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+65,Have Gold Lance or Trident,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+66,Have an Elemental Sword,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+67,Have Genji Glove or Gauntlet,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+68,Have 2 Elemental Rods,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+69,Have Full Mithril Armor Set,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+70,Have an Item with a Rogue Status,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+71,Have 2 Different Brushes,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+72,Have Poison Claw or Fire Knuckle,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+73,Have Rune Edge,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+74,Have Sneak Ring or Black Belt,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+75,Have Cards or Dice,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+76,Have Earrings or Atlas Armlet,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+77,Have Amulet or Wall Ring,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+78,Have 2 Command Changing Items,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+79,Have Blossom or Imperial,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+80,Have Full Moon or Boomerang,Segment 1 - (Start Through Ultros 2),1,6,Equipment/Relics
+81,Check all Treasures in South Figaro,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+82,Check all Chests in South Figaro Cave,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+83,Ride a Chocobo from Each Stable,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+84,Loop in Lete River 5 Times,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+85,Use Magicite in a Boss Battle,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+86,"See ""Need MP"" Message",Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+87,See a Weapon Proc,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+88,Recruit Shadow Twice,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+89,Win 3 MiaB Battles,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+90,Check all Chests in Narshe Cave,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+91,Buy All Items in 5 Shops,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+92,"Spend 25,000gp in One Purchase",Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+93,Kill 3 Types of Enemy with a Revivify or Fenix Down,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+94,Learn a Spell from an Item,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+95,See Shadow Depart After Battle,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+96,See an Enemy Revive from Reraise Status,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+97,Sell 2 Things for 1gp,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+98,"""Kick It"" on the Box in the Imperial Camp",Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+99,Check the Doma Jar,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+100,Break 6 Different Items,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+101,Use a Desperation Attack,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+102,Recruit a Ghost,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+103,Have Dadaluma Whistle for Help,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+104,Fight Siegfried,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+105,See Interceptor Use Takedown AND Wild Fang,Segment 1 - (Start Through Ultros 2),1,4,Task Completions
+106,Never Use Tonic or Dried Meat,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+107,Never Buy Fenix Down,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+108,Never Recruit Shadow,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+109,Never Buy Relics,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+110,Never Buy Armor,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+111,Never Back Row a Character,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+112,Always Have Open Character Slot (When Possible),Segment 1 - (Start Through Ultros 2),1,3,Conducts
+113,Never Visit Mobliz,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+114,Never Sell Anything,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+115,Never Ride Chocobos,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+116,Never Have a Level 14+ Character,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+117,Never Buy Shurikens,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+118,Never Use a Tent,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+119,Never Break an Item,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+120,Never Visit Kolingen,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+121,Never Buy Weapons,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+122,Everyone Always Has One Open Relic Slot,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+123,Never Cast Cure/2/3,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+124,Never Use Smoke Bomb,Segment 1 - (Start Through Ultros 2),1,3,Conducts
+125,Never Equip an Esper,Segment 1 - (Start Through Ultros 2),1,3,Conducts
