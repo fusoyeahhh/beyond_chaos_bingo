@@ -62,3 +62,7 @@ button {
   margin-right: 10px;
 }
 
+.counter > img {
+  width: 40px;
+}
+

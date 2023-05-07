@@ -79,13 +79,14 @@ class BingoBoard:
                 ) for col in self._board]
         )
 
-    def generate_counter(self, name, func):
+    def generate_counter(self, name, func, img_src):
         from htmlBuilder import tags, attributes
         _name = name.replace("_", " ")
 
         return tags.Div([attributes.Class(f"counter {name}")], [
             tags.Button([attributes.Onclick(f"{func}(true);")], f"inc {_name}"),
             tags.Button([attributes.Onclick(f"{func}(false);")], f"dec {_name}"),
+            tags.Img([attributes.Src(img_src)]),
             tags.Div([attributes.Onclick(func)], _name),
             tags.Div([attributes.Id(f"{name}_counter")], "0")
         ])
@@ -107,8 +108,8 @@ class BingoBoard:
         ]
 
         body = [
-            self.generate_counter("miab", "incCounterMIAB"),
-            self.generate_counter("death", "incCounterDeaths"),
+            self.generate_counter("miab", "incCounterMIAB", "/static/miab.png"),
+            self.generate_counter("death", "incCounterDeaths", "/static/squish.png"),
             self.render_grid(),
         ]
 
