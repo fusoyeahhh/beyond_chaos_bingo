@@ -73,10 +73,11 @@ class BingoBoard:
         from htmlBuilder import tags, attributes
         return tags.Div([attributes.Class("bingo_grid")],
             [tags.Div([attributes.Class("bingo_col")], 
+                [tags.Div([attributes.Class("bingo_header")], c)] +
                 [tags.Div([attributes.Class("bingo_sq inactive"),
                            attributes.Onclick("toggleState(this);")],
                            sq.text) for sq in col]
-                ) for col in self._board]
+                ) for c, col in zip("CHAOS", self._board)]
         )
 
     def generate_counter(self, name, func, img_src):
