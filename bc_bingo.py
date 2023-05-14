@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import re
 import glob
 import random
 import csv
@@ -14,8 +15,23 @@ class SqState(IntFlag):
 
 class BingoBoard:
     class BingoSquare:
+        @classmethod
+        def render_text(cls, text):
+            from htmlBuilder import tags, attributes
+            text = re.split(f"__", text)
+            n = len(text)
+            for i, t in enumerate(text[:]):
+                text.append(t if i % 2 == 0 else tags.B([], t))
+                text.pop(0)
+
+            return text
+
+        @property
+        def text(self):
+            return self.render_text(self._text)
+
         def __init__(self, text, state=SqState.INACTIVE):
-            self.text = text
+            self._text = text
             self.state = state
 
         def __str__(self):
