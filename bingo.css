@@ -1,3 +1,8 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
 .bingo_grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -10,8 +15,8 @@
 }
 
 .bingo_sq {
-  border: 1px solid #000;
-  background-color: #fff;
+  border: 1px solid #fff;
+  background-color: #000;
   height: 200px;
   padding: 10px;
 
@@ -26,7 +31,8 @@
 }
 
 .bingo_sq.inactive {
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .bingo_sq.active {
