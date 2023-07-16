@@ -8,11 +8,6 @@ import itertools
 import pprint
 from enum import IntFlag, auto
 
-class SqState(IntFlag):
-    INACTIVE = auto()
-    BLOCKED = auto()
-    ACTIVE = auto()
-
 class BingoBoard:
     class BingoSquare:
         @classmethod
@@ -30,15 +25,14 @@ class BingoBoard:
         def text(self):
             return self.render_text(self._text)
 
-        def __init__(self, text, state=SqState.INACTIVE):
+        def __init__(self, text):
             self._text = text
-            self.state = state
 
         def __str__(self):
-            return f"({self.text}: {str(self.state)})"
+            return f"({self.text}"
 
         def __repr__(self):
-            return f"({self.text}: {str(self.state)})"
+            return f"({self.text}"
 
     def __init__(self, option_pool, seed=0, ncols=5, nrows=5):
         self.size = (ncols, nrows)
