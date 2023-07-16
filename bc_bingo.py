@@ -34,8 +34,9 @@ class BingoBoard:
         def __repr__(self):
             return f"({self.text}"
 
-    def __init__(self, option_pool, seed=0, ncols=5, nrows=5):
+    def __init__(self, option_pool, seed=0, segment=None, ncols=5, nrows=5):
         self.size = (ncols, nrows)
+        self._seg = segment
         self.reset(*self.size)
 
         self._seed = seed
@@ -66,8 +67,8 @@ class BingoBoard:
 
         return [ch["square"] for ch in chosen]
 
-    def generate(self, segment):
-        selection = self.sample_pool(segment)
+    def generate(self, segment=None):
+        selection = self.sample_pool(segment or self._seg)
         random.shuffle(selection)
 
         for col in self._board:
@@ -104,7 +105,7 @@ class BingoBoard:
         return
 
     def render(self):
-        from htmlBuilder import tags
+        from htmlBuilder import tags, attributes
 
         with open("bingo.css", "r") as css:
             css_style = css.read()
@@ -119,8 +120,11 @@ class BingoBoard:
         ]
 
         body = [
-            self.generate_counter("miab", "incCounterMIAB", "/static/miab.png"),
-            self.generate_counter("death", "incCounterDeaths", "/static/squish.png"),
+            tags.Div([attributes.Class("header")], [
+                self.generate_counter("miab", "incCounterMIAB", "/static/miab.png"),
+                tags.Div([attributes.Class("segment")], f"Segment {self._seg}"),
+                self.generate_counter("death", "incCounterDeaths", "/static/squish.png"),
+            ]),
             self.render_grid(),
         ]
 
@@ -170,7 +174,7 @@ def render_index(seed):
 @app.route("/segment/<seed>/<seg>")
 def render_board(seg, seed):
     print(seed)
-    board = BingoBoard(f"segments/segment_{seg}.csv", seed=seed)
+    board = BingoBoard(f"segments/segment_{seg}.csv", seed=seed, segment=seg)
     board.generate(int(seg))
 
     return flask.render_template_string(board.render())

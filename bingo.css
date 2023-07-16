@@ -54,6 +54,23 @@ body {
   text-decoration: line-through;
 }
 
+.header {
+  font-size: 30pt;
+  width: 100%;
+
+  /*resize: vertical;*/
+  display: flex;
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*overflow: auto;*/
+}
+
+.segment {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+}
+
 .counter {
   display: flex;
   padding: 10px;
