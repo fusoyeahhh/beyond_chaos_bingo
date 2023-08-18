@@ -36,3 +36,23 @@ This should start the server on the localhost, e.g., at the URL `127.0.0.1`, on 
 Open up your web browser and put `127.0.0.1:5000` in the navigation bar. This should bring up the segment selection list for BC bingo. Select the segment you want to start with from the links available.
 
 Once you're done, you can hit `ctrl+C` at the terminal you were using to stop the server.
+
+## Starting the Bot
+
+**NOTE**: The bot and server are separate processes, so you will need two terminals, one for each. One cannot start the other.
+
+Ensure your configuration file (often `config.json`) is properly formatted and contains all the required credentials. Then...
+
+```bash
+python -m bot --config-file <path to configuration>
+```
+
+Note that the Flask configuration from the server is not needed here. You can restore from a previous state with:
+
+## Restoring the Game State
+
+```bash
+python -m bot --config-file <path to configuration> --restore-from <path to state csv file>
+```
+
+By default, the bot will save the current state every 10 seconds in a file called `current_bingo_state.csv`, which you can provide to the previous command to restore.
