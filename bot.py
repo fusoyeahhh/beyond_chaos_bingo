@@ -91,6 +91,9 @@ class PlayerSet:
             }, int(value))
         return winners
 
+    def __getitem__(self, value):
+        return self._store[value]
+
     def _register(self, name):
         if name not in self._store:
             self._store[name] = {}
@@ -236,6 +239,36 @@ class BCBingoBot(commands.Bot):
     #
     # User-based commands
     #
+    @commands.command(name='bcb'):
+    async def bcb(self, ctx):
+        """
+        !bcb -> bcb [guess|current], reviews your guesses or shows who would win given the current situation.
+        """
+        user = ctx.author.name
+        try:
+            _, subcmd, *_ = ctx.message.content.split(" ")
+        except ValueError as e:
+            await ctx.send(f"@{user}, I didn't understand your request. "
+                           f"Must be one of `guess` or `current`")
+            return
+
+        if subcmd == "guess":
+            try:
+                guesses = " | ".join(f"{gt}: {v}" for gt, v in self._pstate[user].items())
+                await ctx.send(f"@{user}, your guesses are: {guesses}")
+            except KeyError:
+                await ctx.send(f"@{user}, I don't have guesses recorded for you.")
+
+        elif subcmd == "current":
+            miab_winners = ", ".join("@" + w for w in self._pstate.get_winners("miab", self.miab))
+            deaths_winners = ", ".join("@" + w for w in self._pstate.get_winners("deaths", self.miab))
+            await ctx.send(f"Current MIAB leaders: {miab_winners}")
+            await ctx.send(f"Current deaths leaders: {deaths_winners}")
+
+        else:
+            await ctx.send(f"@{user}, I didn't understand your request.")
+    COMMANDS["bcb"] = bcb
+
     @commands.command(name='guessbingo', aliases=["bingoguess"])
     async def guessbingo(self, ctx):
         """
