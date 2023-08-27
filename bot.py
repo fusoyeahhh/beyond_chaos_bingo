@@ -1,3 +1,4 @@
+import sys
 import os
 import json
 import datetime
@@ -527,7 +528,7 @@ class BCBingoBot(commands.Bot):
     @commands.command(name='startsegment', aliases=["ss"], cls=AuthorizedCommand)
     async def startsegment(self, ctx):
         """
-        !startsegment -> assign points for segment and reset to segment provided (next by default)
+        !startsegment -> begins countdown to end of guessing window.
         """
         self._timer = self.GUESS_WINDOW
         min_remain = self._timer // 60
@@ -574,7 +575,8 @@ class BCBingoBot(commands.Bot):
         !saveandquit -> save data and shut down
         """
         self.serialize()
-        self.close()
+        await self.close()
+        sys.exit()
 
     #
     # Help commands
