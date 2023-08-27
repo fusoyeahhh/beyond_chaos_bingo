@@ -9,6 +9,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
+_DOC_BASE = "https://github.com/fusoyeahhh/beyond_chaos_bingo/blob/main/BINGO_RULES.md"
+
 def closest_not_over(guesses, value):
     ordered = {k: value - v for k, v in guesses.items() if value - v >= 0}
     log.debug(str(guesses))
@@ -19,7 +21,7 @@ def closest_not_over(guesses, value):
     return {k for k, v in ordered.items() if v == closest}
 
 class PlayerSet:
-    VALID_GUESS_TYPES = {"bingo", "miab", "deaths"}
+    VALID_GUESS_TYPES = ["bingo", "miab", "deaths"]
 
     ALLOWED_BINGO_GUESSES = sorted({
         *[f"c{i}" for i in range(1, 6)],
@@ -31,7 +33,7 @@ class PlayerSet:
         return guess.strip().lower() in cls.ALLOWED_BINGO_GUESSES
 
     @classmethod
-    def from_csv(cls, fname):
+    def from_csv(cls, fname, ptsfile=None):
         new = cls()
 
         with open(fname) as csvfile:
@@ -49,6 +51,9 @@ class PlayerSet:
     def __init__(self, overwrite=False):
         self._store = {}
         self._overwrite = overwrite
+
+    def __len__(self):
+        return len(self._store)
 
     @property
     def overwrite(self):
@@ -106,7 +111,7 @@ class PlayerSet:
 
         pstore = self._store[name]
         if value is None:
-            pstore.pop(value)
+            pstore.pop(value, None)
             return True
 
         if gtype not in pstore or self.overwrite:
@@ -142,6 +147,13 @@ class AuthorizedCommand(commands.Command):
 class BCBingoBot(commands.Bot):
     COMMANDS = {}
 
+    _POINTS_FOR = {
+        "bingo": 1,
+        "miab": 1,
+        "deaths": 1,
+    }
+    GUESS_WINDOW = 60 * 5
+
     def __init__(self, config, segment=1, restore_from=None):
         self._cfg = self.load_config(config)
         self._cfg["prefix"] = "!"
@@ -150,6 +162,9 @@ class BCBingoBot(commands.Bot):
         super().__init__(**self._cfg)
         self.reset()
         self._segment = segment
+
+        self._timer = None
+        self._points = self.load_points(self._points_file)
 
         if restore_from is not None:
            self.restore(restore_from)
@@ -165,9 +180,35 @@ class BCBingoBot(commands.Bot):
         admins = ', '.join(admins)
         log.info(f"Added {admins} to the authorized users list.")
         # Base URL for rules and references
-        self._doc_base = opts.pop("doc_url", "https://github.com/fusoyeahhh/beyond_chaos_bingo/")
+        self._doc_base = opts.pop("doc_url", _DOC_BASE)
 
+        self._POINTS_FOR.update(opts.pop("points_for", {}))
+
+        self._tracking = opts.pop("tracking_file", None)
+        self._points_file = opts.pop("points_file", None)
         return opts
+
+    def load_points(self, fname):
+        pts = {}
+        if fname is None:
+            return pts
+
+        with open(fname) as csvfile:
+            ptreader = csv.reader(csvfile, delimiter=",")
+            for name, *row in ptreader:
+                pts[name] = int(row[0])
+
+        return pts
+
+    def assign_points(self, gtype, value):
+        winners = self._pstate.get_winners(gtype, value)
+
+        for winner in winners:
+            ptval = self._points.get(winner, 0) + self._POINTS_FOR[gtype]
+            self._points[winner] = ptval
+            log.info(f"{winner} now has {ptval} points")
+
+        return winners
 
     @property
     def miab(self):
@@ -187,10 +228,27 @@ class BCBingoBot(commands.Bot):
 
     def restore(self, restore_from):
         self._pstate = PlayerSet.from_csv(restore_from)
-        gstate = self._pstate._pstore.pop("_", {})
+        gstate = self._pstate._store.pop("_", {})
         self.miab = int(gstate.get("miab", 0))
         self.deaths = int(gstate.get("deaths", 0))
         self._segment = int(gstate.get("bingo", 1))
+
+        log.info(f"Starting from segment {self._segment} with "
+                 f"{len(self._pstate)} players.")
+
+    def serialize(self):
+        if self._tracking is not None:
+            log.debug(f"Serializing state to {self._tracking}")
+            game_state = ("_", *map(str, (self._segment, self.miab, self.deaths)))
+            self._pstate.to_csv(self._tracking, game_state=game_state)
+
+        if self._points_file is not None:
+            log.debug(f"Serializing points to {self._points_file}")
+
+            with open(self._points_file, "w", newline="") as csvfile:
+                statewriter = csv.writer(csvfile, delimiter=",")
+                for name, pval in self._store.items():
+                    statewriter.writerow((name, str(pval)))
 
     def reset(self):
         self._pstate = PlayerSet()
@@ -205,10 +263,22 @@ class BCBingoBot(commands.Bot):
     async def core_loop(self):
         # core interaction
 
+        if self._timer is not None:
+            chan = self.connected_channels[0]
+            # FIXME: need to keep this in sync with the routine interval
+            self._timer -= 10
+            if self._timer < 0:
+                self._timer = None
+                log.info("Firing timer event.")
+                self._toggle = False
+                await chan.send(f"Guesses for {self.segment} are now CLOSED.")
+            elif self._timer // 5 in list(range(0, 59, 5)):
+                min_left = self._timer // 60
+                await chan.send(f"About {min_left} minutes left for segment {self._segment} guesses.")
+
         try:
             log.debug("Doin' a thing...")
-            game_state = ("_", *map(str, (self._segment, self.miab, self.deaths)))
-            self._pstate.to_csv("current_bingo_state.csv", game_state=game_state)
+            self.serialize()
         except Exception as e:
             log.error("Encountered error while monitoring game state.")
             log.error(str(e))
@@ -239,7 +309,7 @@ class BCBingoBot(commands.Bot):
     #
     # User-based commands
     #
-    @commands.command(name='bcb'):
+    @commands.command(name='bcb')
     async def bcb(self, ctx):
         """
         !bcb -> bcb [guess|current], reviews your guesses or shows who would win given the current situation.
@@ -261,7 +331,7 @@ class BCBingoBot(commands.Bot):
 
         elif subcmd == "current":
             miab_winners = ", ".join("@" + w for w in self._pstate.get_winners("miab", self.miab))
-            deaths_winners = ", ".join("@" + w for w in self._pstate.get_winners("deaths", self.miab))
+            deaths_winners = ", ".join("@" + w for w in self._pstate.get_winners("deaths", self.deaths))
             await ctx.send(f"Current MIAB leaders: {miab_winners}")
             await ctx.send(f"Current deaths leaders: {deaths_winners}")
 
@@ -269,7 +339,7 @@ class BCBingoBot(commands.Bot):
             await ctx.send(f"@{user}, I didn't understand your request.")
     COMMANDS["bcb"] = bcb
 
-    @commands.command(name='guessbingo', aliases=["bingoguess"])
+    @commands.command(name='guessbingo', aliases=["bingoguess", "bingo"])
     async def guessbingo(self, ctx):
         """
         !guessbingo -> Guess which bingo will occur. Valid guesses are r{1-5}, c{1-5}, and du (lower corner left to upper corner right), dd (upper corner left to lower corner right).
@@ -301,7 +371,7 @@ class BCBingoBot(commands.Bot):
         await ctx.send(f"@{user}, your guess is {value}")
     COMMANDS["guessbingo"] = guessbingo
 
-    @commands.command(name='guessmiab', aliases=["miabguess"])
+    @commands.command(name='guessmiab', aliases=["miabguess", "miab"])
     async def guessmiab(self, ctx):
         """
         !guessmiab -> Guess how many MiaB (Monster in a Box) will occur this segment.
@@ -319,6 +389,7 @@ class BCBingoBot(commands.Bot):
             log.error(str(e))
             await ctx.send(f"@{user}, I didn't understand your guess. "
                             "Please check and retry.")
+            return
 
         if not result:
             await ctx.send(f"@{user}, you have already guessed this category.")
@@ -326,7 +397,7 @@ class BCBingoBot(commands.Bot):
         await ctx.send(f"@{user}, your guess is {value}")
     COMMANDS["guessmiab"] = guessmiab
 
-    @commands.command(name='guessdeaths', aliases=["deathsguess"])
+    @commands.command(name='guessdeaths', aliases=["deathsguess", "deaths"])
     async def guessdeaths(self, ctx):
         """
         !guessdeaths -> Guess how many times the player will get a Game Over this segment."
@@ -344,6 +415,7 @@ class BCBingoBot(commands.Bot):
             log.error(str(e))
             await ctx.send(f"@{user}, I didn't understand your guess. "
                             "Please check and retry.")
+            return
 
         if not result:
             await ctx.send(f"@{user}, you have already guessed this category.")
@@ -368,10 +440,10 @@ class BCBingoBot(commands.Bot):
     #
     # Admin commands
     #
-    @commands.command(name='bingo', cls=AuthorizedCommand)
-    async def bingo(self, ctx):
+    @commands.command(name='bingoline', cls=AuthorizedCommand)
+    async def bingoline(self, ctx):
         """
-        !bingo --> bingo winner
+        !bingoline --> bingo winner
         """
         user = ctx.author.name
         try:
@@ -382,13 +454,16 @@ class BCBingoBot(commands.Bot):
             log.error(str(e))
             return
 
+        winners = self._pstate.get_winners("bingo", value)
+        self.assign_points(winners, "bingo")
+
         winners = ", ".join("@" + w for w in self._pstate.get_winners("bingo", value))
         await ctx.send(f"C H A O S ACHIEVED. Winners for {value}: {winners}")
     
-    @commands.command(name='miab', cls=AuthorizedCommand)
-    async def miab_(self, ctx):
+    @commands.command(name='miabcount', cls=AuthorizedCommand)
+    async def miabcount(self, ctx):
         """
-        !miab --> [number|++]
+        !miabcount --> [number|++]
         """
         user = ctx.author.name
         value = ctx.message.content.split(" ")
@@ -406,10 +481,10 @@ class BCBingoBot(commands.Bot):
 
         await ctx.send(f"@{user}: MiaB count is currently {self.miab}.")
 
-    @commands.command(name='deaths', cls=AuthorizedCommand)
-    async def deaths_(self, ctx):
+    @commands.command(name='deathcount', cls=AuthorizedCommand)
+    async def deathcount(self, ctx):
         """
-        !deaths --> [number|++]
+        !deathcount --> [number|++]
         """
         user = ctx.author.name
         value = ctx.message.content.split(" ")
@@ -449,21 +524,42 @@ class BCBingoBot(commands.Bot):
 
         await ctx.send(f"@{user}: Guesses are currently {state}.")
 
+    @commands.command(name='startsegment', aliases=["ss"], cls=AuthorizedCommand)
+    async def startsegment(self, ctx):
+        """
+        !startsegment -> assign points for segment and reset to segment provided (next by default)
+        """
+        self._timer = self.GUESS_WINDOW
+        min_remain = self._timer // 60
+        await ctx.send(f"Guesses for segment {self._segment} close in {min_remain} minutes.")
+
+    @commands.command(name='opensegment', aliases=["os"], cls=AuthorizedCommand)
+    async def opensegment(self, ctx):
+        """
+        !opensegment -> Opens the current segment for guesses.
+        """
+        self._toggle = True
+        await ctx.send(f"Guesses for segment {self._segment} are now OPEN.")
+
     @commands.command(name='segment', aliases=["s"], cls=AuthorizedCommand)
     async def segment(self, ctx):
         """
-        !segment -> reset to segment provided
+        !segment -> assign points for segment and reset to segment provided (next by default)
         """
-        winners = ", ".join("@" + w for w in self._pstate.get_winners("miab", self.miab))
+        winners = self.assign_points("miab", self.miab)
+        winners = ", ".join("@" + w for w in winners)
         await ctx.send(f"MiaB guess winners for {self._segment}: {winners}")
-        winners = ", ".join("@" + w for w in self._pstate.get_winners("deaths", self.deaths))
+
+        winners = self.assign_points("deaths", self.deaths)
+        winners = ", ".join("@" + w for w in winners)
         await ctx.send(f"Death guess winners for {self._segment}: {winners}")
 
-        value = ctx.message.content.split(" ")
-        if len(value) > 1:
-            _, value, *_ = value
+        self.serialize()
+
+        _, *value = ctx.message.content.split(" ")
+        if len(value) > 0:
             try:
-                self._segment = int(value)
+                self._segment = int(value[0])
             except ValueError as e:
                 log.error(e)
                 return
@@ -471,6 +567,14 @@ class BCBingoBot(commands.Bot):
             self._segment += 1
 
         self.reset()
+
+    @commands.command(name='saveandquit', aliases=["sq"], cls=AuthorizedCommand)
+    async def saveandquit(self, ctx):
+        """
+        !saveandquit -> save data and shut down
+        """
+        self.serialize()
+        self.close()
 
     #
     # Help commands
@@ -506,7 +610,13 @@ if __name__ == "__main__":
                       help="Path to configuration file in JSON format. Required.")
     argp.add_argument("-r", "--restore-from",
                       help="Restore game state from this CSV file. Optional.")
+    argp.add_argument("-d", "--debug", action="store_true",
+                      help="Enable debug logging.")
     args = argp.parse_args()
+
+    if args.debug:
+        log.setLevel(logging.DEBUG)
+        log.debug("Enabling debug level logging.")
 
     cfg = pathlib.Path(args.config_file or "config.json")
     if not cfg.exists():
