@@ -21,7 +21,7 @@ def closest_not_over(guesses, value):
     return {k for k, v in ordered.items() if v == closest}
 
 class PlayerSet:
-    VALID_GUESS_TYPES = {"bingo", "miab", "deaths"}
+    VALID_GUESS_TYPES = ["bingo", "miab", "deaths"]
 
     ALLOWED_BINGO_GUESSES = sorted({
         *[f"c{i}" for i in range(1, 6)],
@@ -51,6 +51,9 @@ class PlayerSet:
     def __init__(self, overwrite=False):
         self._store = {}
         self._overwrite = overwrite
+
+    def __len__(self):
+        return len(self._store)
 
     @property
     def overwrite(self):
@@ -108,7 +111,7 @@ class PlayerSet:
 
         pstore = self._store[name]
         if value is None:
-            pstore.pop(value)
+            pstore.pop(value, None)
             return True
 
         if gtype not in pstore or self.overwrite:
@@ -160,6 +163,7 @@ class BCBingoBot(commands.Bot):
         self.reset()
         self._segment = segment
 
+        self._timer = None
         self._points = self.load_points(self._points_file)
 
         if restore_from is not None:
@@ -196,12 +200,12 @@ class BCBingoBot(commands.Bot):
 
         return pts
 
-    def assign_points(self, winners, value):
+    def assign_points(self, gtype, value):
         winners = self._pstate.get_winners(gtype, value)
 
         for winner in winners:
-            ptval = self._points.get(user, 0) + self._POINTS_FOR[gtype]
-            self._points[user] = ptval
+            ptval = self._points.get(winner, 0) + self._POINTS_FOR[gtype]
+            self._points[winner] = ptval
             log.info(f"{winner} now has {ptval} points")
 
         return winners
@@ -224,10 +228,13 @@ class BCBingoBot(commands.Bot):
 
     def restore(self, restore_from):
         self._pstate = PlayerSet.from_csv(restore_from)
-        gstate = self._pstate._pstore.pop("_", {})
+        gstate = self._pstate._store.pop("_", {})
         self.miab = int(gstate.get("miab", 0))
         self.deaths = int(gstate.get("deaths", 0))
         self._segment = int(gstate.get("bingo", 1))
+
+        log.info(f"Starting from segment {self._segment} with "
+                 f"{len(self._pstate)} players.")
 
     def serialize(self):
         if self._tracking is not None:
@@ -241,7 +248,7 @@ class BCBingoBot(commands.Bot):
             with open(self._points_file, "w", newline="") as csvfile:
                 statewriter = csv.writer(csvfile, delimiter=",")
                 for name, pval in self._store.items():
-                    statewriter.writerow((name, str(pval))):
+                    statewriter.writerow((name, str(pval)))
 
     def reset(self):
         self._pstate = PlayerSet()
@@ -257,16 +264,17 @@ class BCBingoBot(commands.Bot):
         # core interaction
 
         if self._timer is not None:
+            chan = self.connected_channels[0]
             # FIXME: need to keep this in sync with the routine interval
             self._timer -= 10
             if self._timer < 0:
                 self._timer = None
                 log.info("Firing timer event.")
                 self._toggle = False
-                await ctx.send(f"Guesses for {self.segment} are now CLOSED.")
-            elif self.timer // 5 in list(range(0, 5 * 60, 5))[1::2]:
-                min_left = self.timer % 60
-                await ctx.send(f"About {min_left} minutes left for segment {self.segment} guesses.")
+                await chan.send(f"Guesses for {self.segment} are now CLOSED.")
+            elif self._timer // 5 in list(range(0, 59, 5)):
+                min_left = self._timer // 60
+                await chan.send(f"About {min_left} minutes left for segment {self._segment} guesses.")
 
         try:
             log.debug("Doin' a thing...")
@@ -301,7 +309,7 @@ class BCBingoBot(commands.Bot):
     #
     # User-based commands
     #
-    @commands.command(name='bcb'):
+    @commands.command(name='bcb')
     async def bcb(self, ctx):
         """
         !bcb -> bcb [guess|current], reviews your guesses or shows who would win given the current situation.
@@ -323,7 +331,7 @@ class BCBingoBot(commands.Bot):
 
         elif subcmd == "current":
             miab_winners = ", ".join("@" + w for w in self._pstate.get_winners("miab", self.miab))
-            deaths_winners = ", ".join("@" + w for w in self._pstate.get_winners("deaths", self.miab))
+            deaths_winners = ", ".join("@" + w for w in self._pstate.get_winners("deaths", self.deaths))
             await ctx.send(f"Current MIAB leaders: {miab_winners}")
             await ctx.send(f"Current deaths leaders: {deaths_winners}")
 
@@ -381,6 +389,7 @@ class BCBingoBot(commands.Bot):
             log.error(str(e))
             await ctx.send(f"@{user}, I didn't understand your guess. "
                             "Please check and retry.")
+            return
 
         if not result:
             await ctx.send(f"@{user}, you have already guessed this category.")
@@ -406,6 +415,7 @@ class BCBingoBot(commands.Bot):
             log.error(str(e))
             await ctx.send(f"@{user}, I didn't understand your guess. "
                             "Please check and retry.")
+            return
 
         if not result:
             await ctx.send(f"@{user}, you have already guessed this category.")
@@ -445,7 +455,7 @@ class BCBingoBot(commands.Bot):
             return
 
         winners = self._pstate.get_winners("bingo", value)
-        self.assign_points(winner, "bingo")
+        self.assign_points(winners, "bingo")
 
         winners = ", ".join("@" + w for w in self._pstate.get_winners("bingo", value))
         await ctx.send(f"C H A O S ACHIEVED. Winners for {value}: {winners}")
@@ -521,7 +531,7 @@ class BCBingoBot(commands.Bot):
         """
         self._timer = self.GUESS_WINDOW
         min_remain = self._timer // 60
-        await ctx.send(f"Guesses for segent {self.segment} close in {min_remain} minutes.")
+        await ctx.send(f"Guesses for segment {self._segment} close in {min_remain} minutes.")
 
     @commands.command(name='opensegment', aliases=["os"], cls=AuthorizedCommand)
     async def opensegment(self, ctx):
@@ -529,18 +539,18 @@ class BCBingoBot(commands.Bot):
         !opensegment -> Opens the current segment for guesses.
         """
         self._toggle = True
-        await ctx.send(f"Guesses for {self.segment} are now OPEN.")
+        await ctx.send(f"Guesses for segment {self._segment} are now OPEN.")
 
     @commands.command(name='segment', aliases=["s"], cls=AuthorizedCommand)
     async def segment(self, ctx):
         """
         !segment -> assign points for segment and reset to segment provided (next by default)
         """
-        winners = self.assign_points(winner, "miab", self.miab)
+        winners = self.assign_points("miab", self.miab)
         winners = ", ".join("@" + w for w in winners)
         await ctx.send(f"MiaB guess winners for {self._segment}: {winners}")
 
-        winners = self.assign_points(winner, "deaths", self.deaths)
+        winners = self.assign_points("deaths", self.deaths)
         winners = ", ".join("@" + w for w in winners)
         await ctx.send(f"Death guess winners for {self._segment}: {winners}")
 
