@@ -610,7 +610,13 @@ if __name__ == "__main__":
                       help="Path to configuration file in JSON format. Required.")
     argp.add_argument("-r", "--restore-from",
                       help="Restore game state from this CSV file. Optional.")
+    argp.add_argument("-d", "--debug", action="store_true",
+                      help="Enable debug logging.")
     args = argp.parse_args()
+
+    if args.debug:
+        log.setLevel(logging.DEBUG)
+        log.debug("Enabling debug level logging.")
 
     cfg = pathlib.Path(args.config_file or "config.json")
     if not cfg.exists():
