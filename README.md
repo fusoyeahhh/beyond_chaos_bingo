@@ -41,7 +41,17 @@ Once you're done, you can hit `ctrl+C` at the terminal you were using to stop th
 
 **NOTE**: The bot and server are separate processes, so you will need two terminals, one for each. One cannot start the other.
 
-Ensure your configuration file (often `config.json`) is properly formatted and contains all the required credentials. Then...
+Ensure your configuration file (often `config.json`) is properly formatted and contains all the required credentials. For example:
+
+```json
+{
+	"token":"oauth:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+	"initial_channels":["#your_channel_name"],
+	"admins": ["your_twitch_handle", "trusted_admin", "trusted_admin_2"]
+}
+```
+
+Then...
 
 ```bash
 python -m bot --config-file <path to configuration>
