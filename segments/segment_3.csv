@@ -1,127 +1,124 @@
 index,square,segment,segment_index,choices,type
 0,Don't Game Over or Reset,Segment 3 - (Airship Crash through End of the World),3,,free
-1,Enemy Uses Absolute 0 or Meteo,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-2,Enemy Uses Antlion or Lifeshaver,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-3,Enemy Uses Giga Volt or Aqua Rake,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-4,Enemy Uses Flash Rain or Wind Slash,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-5,Enemy Uses Ice Rabbit or Sun Bath,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-6,Enemy Uses Cave In or Lode Stone,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-7,"Enemy Uses Fire3, Ice3, or Bolt3",Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-8,Enemy Uses Blaster or Bio Blaster,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-9,Enemy Uses Raid or Blaze,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-10,Enemy Uses Any Lv.X Lore,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-11,Enemy Uses Megazerk or Fireball,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-12,Enemy Uses El Nino or Cleansweep,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-13,Enemy Uses Tentacle or Specter,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-14,Enemy Uses Schiller or Magnitude8,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-15,Enemy Uses Atomic Ray or WaveCannon,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-16,"Enemy Uses Fire2, Ice2, or Bolt2",Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-17,Enemy Uses Imp or Slow,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-18,Enemy Uses Heart Burn or Phantasam,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-19,Enemy Uses Demi or Quartr,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-20,Enemy Uses Exploder or Pep Up,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-21,Enemy Uses Sour Mouth or Disaster,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-22,Enemy Uses Condemned or Roulette,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-23,"Enemy Uses Fire Skean, Bolt Edge, or Water Edge",Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-24,Enemy Uses Delta Hit or Plasma,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-25,Enemy Uses Entwine or Evil Toot,Segment 3 - (Airship Crash through End of the World),3,6,Skills/Spells
-26,Get Hit by a Regen or Seizure Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-27,Get Hit by a Poison or Imp Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-28,Get Hit by a Zombie or Petrify Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-29,Get Hit by a Condemed or Confuse Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-30,Get Hit by a Stop or Reflect Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-31,Get Hit by a Absorb HP or MP Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-32,Get Hit by a Darkness or Berserk Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-33,Get Hit by a Near Death or Instant Death Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-34,Get Hit by a Slow or Haste Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-35,Get Hit by a Mute or Sleep Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
-36,Have 2 X-Potion,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-37,Have 2 X-Ether,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-38,Have 99 Soft,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-39,Have 99 Potion,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-40,Have 99 Green Cherry,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-41,Have 99 Smoke Bomb,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-42,Have 3 Elixir,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-43,Have 2 Ether,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-44,Have 3 Magicite,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-45,Have 10 Tincture,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-46,Have 5 Skean/Edge Types,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-47,Have Ninja Star and Tack Star,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-48,Have 7 Different Tools,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-49,"Have 150,000gp",Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-50,Have 99 Revivify,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-51,Have 10 Warp Stone,Segment 3 - (Airship Crash through End of the World),3,3,Items/Resources
-52,Have Cat Hood,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-53,Have Zephyr Cape AND Beads,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-54,Have Imp's Armor or Titanium,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-55,Have Aura or Strato,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-56,Have Pearl Lance or Aura Lance,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-57,Have Back Guard AND Gale Hairpin,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-58,Have Hero Ring or Cursed Ring,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-59,Have 3 Command Changing Items,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-60,Have 4 Different Suits,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-61,Have Hawk Eye or Sniper,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-62,Have FakeMustache or Dragon Horn,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-63,Have Crystal Sword,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-64,Have 2 Pieces of Defensive Genji Gear,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-65,Have Heal Rod or Punisher,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-66,Have All 3 Elemental Swords,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-67,Have Full Diamond Armor Set,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-68,Have 4 Elemental Rods,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-69,Have an Elemental Shield,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-70,Have 2 Items with a Rogue Status,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-71,Have Green Beret AND Bard's Hat,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-72,Have Gradeus or Assassin,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-73,Have Full Crystal Armor Set,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-74,Have Doom Darts or Dragon Claw,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-75,Have 3 Different Brushes,Segment 3 - (Airship Crash through End of the World),3,6,Equipment/Relics
-76,Check all Treasures in Thamasa,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-77,Check all Treasures in Doma Castle,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-78,Defeat 4 Different Triangle Island Packs,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-79,Have 1 Character with 2 Ailments,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-80,Use Magicite in a Boss Battle,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-81,"See ""Need MP"" Message",Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-82,See a Weapon Proc,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-83,See an Enemy Die of Poison or Sap,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-84,Get the Last Chest on Floating Continent,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-85,Check all Chests in Imperial Base,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-86,Buy All Items in 5 Shops,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-87,"Spend 50,000gp in One Purchase",Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-88,Kill 3 Types of Enemy with a Revivify,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-89,Learn a New Spell from an Item,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-90,Win 3 MiaB Battles,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-91,Check all Chests in Vector,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-92,Sell 3 Things for 1gp,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-93,See an Enemy Reconstitute from Instant Death,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-94,Do 3000+ dmg in One Hit,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-95,Break 6 Different Items,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-96,Leave Shadow on the Floating Continent,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-97,Use a Desperation Attack,Segment 3 - (Airship Crash through End of the World),3,4,Task Completions
-98,Never Use Dried Meat or Potion,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-99,Never Buy Fenix Down,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-100,Always Have 1 Character Imp'ed (When Able),Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-101,Never Check Equipment Info,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-102,Never Buy Relics,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-103,Never Buy Armor,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-104,Never Buy Weapons,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-105,Never Back Row a Character,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-106,Always Have an Open Character Slot (When Able),Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-107,Never Equip a Weapon,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-108,Always Have One Relic Ring Equipped (When Able),Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-109,Never Sell Anything,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-110,Never Have Level 22+ Character,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-111,Never Buy Shurikens,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-112,Never Use a Tent,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-113,Never Break an Item,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-114,Never Use Warp Stone,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-115,Never Run with all Characters,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-116,Everyone Always Has One Open Relic Slot,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-117,Never Cast Cure/2/3,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-118,Never Use Smoke Bomb,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-119,Always Use 1 Item Every Battle,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-120,Never Equip an Esper,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-121,Never Cast Life/2,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-122,Never Visit South Figaro,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-123,Never Visit Kolingen,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-124,Never Visit Jiidor,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
-125,Never Visit Albrook,Segment 3 - (Airship Crash through End of the World),3,3,Conducts
+1,"Enemy Uses Fire 2, Ice 2, or Bolt 2",Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+2,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+3,Enemy Uses WaveCannon or Atomic Ray,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+4,Enemy Uses Flash Rain or Sand Storm,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+5,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+6,Enemy Uses Lifeshaver or Antlion,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+7,Enemy Uses Any L.X Lore,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+8,Enemy Uses Diffuser or Raid,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+9,Enemy Uses Magnitude8 or Giga Volt,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+10,Enemy Uses Bio or Break,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+11,Enemy Uses Flare or Pearl,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+12,Enemy Uses Doom or Condemned,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+13,Enemy Uses Fire Ball or Blaze,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+14,Enemy Uses Sleep or Imp,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+15,Enemy Uses Mute or Muddle,Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+16,"Enemy Uses Fire Skean, Water Edge, or Bolt Edge",Segment 3 - (Airship Crash through End of the World),3,4,Common Skills
+17,Enemy Uses Absolute 0 or Meteo,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+18,Enemy Uses Revenge or Revenger,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+19,Enemy Uses W Wind or Cyclonic,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+20,Enemy Uses Elf Fire or Fire Wall,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+21,Enemy Uses Tentacle or Roulette,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+22,Enemy Uses Blaster or Mind Blast,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+23,Enemy Uses Sour Mouth or ChokeSmoke,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+24,Enemy Uses Slimer or Heartburn,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Skills
+25,Get Hit by a Zombie or Instant Death Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+26,Get Hit by a Haste or Slow Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+27,Get Hit by a Seizure or Regen Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+28,Get Hit by a Poison or Darkness Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+29,Get Hit by a Mute or Imp Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+30,Get Hit by a Confuse or Berserk Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+31,Get Hit by a Condemned or Near Death Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+32,Get Hit by a Petrify or Stop Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+33,Get Hit by a Sleep or Morph Special,Segment 3 - (Airship Crash through End of the World),3,2,Enemy Specials
+34,Have 99 Soft,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+35,Have 99 Potion,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+36,Have 99 Green Cherry,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+37,Have 99 Revivify,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+38,Have 99 Dried Meat,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+39,Have 99 Shuriken,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+40,Have 99 Echo Screen,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+41,Have all 5 Skean or Edge Types,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+42,Have 10 Tincture,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+43,Have 7 Different Tools,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+44,"Have 60,000gp",Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+45,Have 10 Warp Stone,Segment 3 - (Airship Crash through End of the World),3,2,Common Items/Resources
+46,"Have Shuriken, Ninja Star AND Tack Star",Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Items/Resources
+47,Have 2 X-Potion,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Items/Resources
+48,Have X-Ether,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Items/Resources
+49,Have 2 Elixir,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Items/Resources
+50,Have 2 Ether,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Items/Resources
+51,Have 2 Magicite,Segment 3 - (Airship Crash through End of the World),3,1,Uncommon Items/Resources
+52,Have Stout Spear or Partisan,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+53,"Have Cards, Dice, AND Darts",Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+54,Have 5 Elemental Rods,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+55,Have 3 Command Changing Items,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+56,Have Charm Bangle or Cursed Ring,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+57,Have all 3 Elemental Swords,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+58,Have Ribbon or Gold Hairpin,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+59,Have Break Blade or Enhancer,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+60,Have Back Guard AND Gale Hairpin,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+61,Have Zephyr Cape AND Beads,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+62,Have White Cape AND Peace Ring,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+63,Have 4 Different Suits,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+64,Have Falchion or Crystal,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+65,Have Safety Bit AND Memento Ring,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+66,Have 3 Brushes,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+67,Have Ogre Nix or Mirage Vest,Segment 3 - (Airship Crash through End of the World),3,4,Common Equipment
+68,Have a Full Diamond Armor Set,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+69,Have Punisher or Heal Rod,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+70,Have Rage Ring or Blizzard Orb,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+71,Have Hardned or Assassin,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+72,Have Bone Club or Sniper,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+73,Have Red Jacket or Red Cap,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+74,Have Dragon Claw or Pearl Lance,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+75,Have Doom Darts or Trump,Segment 3 - (Airship Crash through End of the World),3,2,Uncommon Equipment
+76,Check all Treasures in Thamasa,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+77,Check all Treasures in Doma Castle,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+78,Defeat 4 Different Triangle Island Packs,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+79,Use Magicite in a Boss Battle,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+80,"See ""Need MP"" Message",Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+81,See a Weapon Proc,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+82,See an Enemy Die of Poison or Sap,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+83,Get the Last Chest on Floating Continent,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+84,Check all Treasures in Albrook,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+85,Defeat 10 Burning House Encounters,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+86,"Spend 50,000gp in One Purchase",Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+87,Revive 3 Types of Enemy to Death,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+88,Learn a New Spell from an Item,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+89,Check all Chests in Vector,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+90,Sell 3 Things for 1gp,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+91,See an Undead Enemy Reconstitute,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+92,Do 3000dmg or More in One Hit,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+93,Break 4 Different Items,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+94,Leave Shadow on the Floating Continent,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+95,Win 3 MiaB Encounters,Segment 3 - (Airship Crash through End of the World),3,5,Task Completions
+96,Always Have 1 Character Imp'ed (When Able),Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+97,Never Back Row a Character,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+98,Always Have 1 Open Character Slot (When Able),Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+99,Never Equip a Weapon,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+100,Always Have 1 Relic Ring Equipped (When Able),Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+101,Everyone Always Has 1 Open Relic Slot,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+102,"Never Cast Cure, Cure 2, or Cure 3",Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+103,Never Equip an Esper,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+104,Never Cast Life or Life 2,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+105,Never Visit South Figaro,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+106,Never Visit Kolingen,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+107,Never Visit Jiidor,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+108,Never Visit Albrook,Segment 3 - (Airship Crash through End of the World),3,1,Other Conducts
+109,Never Use Tonic,Segment 3 - (Airship Crash through End of the World),3,1,Use Conducts
+110,Never Use Potion,Segment 3 - (Airship Crash through End of the World),3,1,Use Conducts
+111,Never Use Tent,Segment 3 - (Airship Crash through End of the World),3,1,Use Conducts
+112,Never Use Warp Stone,Segment 3 - (Airship Crash through End of the World),3,1,Use Conducts
+113,Never Use Smoke Bomb,Segment 3 - (Airship Crash through End of the World),3,1,Use Conducts
+114,Never Break an Item,Segment 3 - (Airship Crash through End of the World),3,1,Use Conducts
+115,Never Use Remedy,Segment 3 - (Airship Crash through End of the World),3,1,Use Conducts
+116,Never Buy Fenix Down,Segment 3 - (Airship Crash through End of the World),3,1,Shop Conducts
+117,Never Buy Relics,Segment 3 - (Airship Crash through End of the World),3,1,Shop Conducts
+118,Never Buy Armor,Segment 3 - (Airship Crash through End of the World),3,1,Shop Conducts
+119,Never Buy Weapons,Segment 3 - (Airship Crash through End of the World),3,1,Shop Conducts
+120,Never Sell Anything,Segment 3 - (Airship Crash through End of the World),3,1,Shop Conducts
+121,Never Buy Shurikens,Segment 3 - (Airship Crash through End of the World),3,1,Shop Conducts
+122,Never Buy Tools,Segment 3 - (Airship Crash through End of the World),3,1,Shop Conducts

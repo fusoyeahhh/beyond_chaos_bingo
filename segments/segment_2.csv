@@ -1,127 +1,120 @@
 index,square,segment,segment_index,choices,type
 0,Don't Game Over or Reset,Segment 2 - (South Continent through Airship Crash),2,,free
-1,Enemy Uses Mega Volt or Missile,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-2,Enemy Uses Tek Laser or Blizzard,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-3,Enemy Uses Giga Volt or Aqua Rake,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-4,Enemy Uses Elf Fire or Grav Bomb,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-5,Enemy Uses Ice Rabbit or Sun Bath,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-6,Enemy Uses Sonic Boom or Shimsham,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-7,"Enemy Uses Fire3, Ice3, or Bolt3",Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-8,Enemy Uses Snowball or Stone,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-9,Enemy Uses Imp Song or Lullaby,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-10,Enemy Uses Raid or Blaze,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-11,Enemy Uses Any Lv.X Lore,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-12,Enemy Uses Megazerk or Fireball,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-13,Enemy Uses El Nino or Cleansweep,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-14,Enemy Uses Tentacle or Specter,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-15,Enemy Uses Schiller or Magnitude8,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-16,Enemy Uses Atomic Ray or WaveCannon,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-17,"Enemy Uses Fire2, Ice2, or Bolt2",Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-18,Enemy Uses Imp or Stop,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-19,Enemy Uses TekBarrier or Launcher,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-20,Enemy Uses Demi or Quartr,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-21,Enemy Uses Exploder or Pep Up,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-22,Enemy Uses Pois. Frog or Shock Wave,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-23,Enemy Uses Condemned or Roulette,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-24,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-25,Enemy Uses Confusion or Confuser,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-26,Enemy Uses Drain or Osmose,Segment 2 - (South Continent through Airship Crash),2,6,Skills/Spells
-27,Get Hit by a Regen or Seizure Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-28,Get Hit by a Poison or Imp Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-29,Get Hit by a Zombie or Petrify Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-30,Get Hit by a Condemed or Confuse Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-31,Get Hit by a Vanish or Image Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-32,Get Hit by a Absorb HP or MP Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-33,Get Hit by a Darkness or Berserk Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-34,Get Hit by a Near Death or Stop Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-35,Get Hit by a Slow or Haste Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-36,Get Hit by a Mute or Sleep Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
-37,Have 2 X-Potion,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-38,Have X-Ether,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-39,Have 99 Dried Meat,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-40,Have 99 Potion,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-41,Have 99 Green Cherry,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-42,Have 99 Smoke Bomb,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-43,Have 2 Elixir,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-44,Have 2 Ether,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-45,Have 2 Magicite,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-46,Have 5 Tincture,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-47,Have 3 Skean/Edge Types,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-48,Have Tack Star,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-49,Have 6 Different Tools,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-50,"Have 100,000gp",Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-51,Have 99 Revivify,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-52,Have 5 Warp Stone,Segment 2 - (South Continent through Airship Crash),2,3,Items/Resources
-53,Have DragoonBoots or Coin Toss,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-54,Have Crystal Orb or Muscle Belt,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-55,Have Safety Bit AND Memento Ring,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-56,Have Guard Ring or Cure Ring,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-57,Have Nutkin Suit or BehemothSuit,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-58,Have Charm Bangle or Thief Glove,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-59,Have Atma Weapon or Cat Hood,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-60,Have 3 Command Changing Items,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-61,Have Back Guard or Gale Hairpin,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-62,Have Tempest or Murasame,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-63,Have Genji Glove or Gauntlet,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-64,Have Mystery Veil or Tiger Mask,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-65,Have Earrings AND Atlas Armlet,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-66,Have Enhancer or Break Blade,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-67,Have All 3 Elemental Swords,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-68,Have Full Diamond Armor Set,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-69,Have 4 Elemental Rods,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-70,Have Full Gold Armor Set,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-71,Have 2 Items w/ Rogue Status,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-72,Have Genji Armor or Mirage Vest,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-73,Have Red Cap or Imp Halberd,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-74,Have Tiara or Beret,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-75,Have Zephyr Cape or Beads,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-76,Have Darts or Trump,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-77,Have Gaia Gear or Cherub Down,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-78,Have Poison Claw or Fire Knuckle,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-79,Have 2 Items with a Rogue Status,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-80,Have Hawk Eye or Sniper,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-81,Have Partisan or Stout Spear,Segment 2 - (South Continent through Airship Crash),2,6,Equipment/Relics
-82,Check all Treasures in Magitek Factory,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-83,Check all Treasures in Sealed Cave,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-84,Ride a Chocobo from Each Stable,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-85,Defeat 4 Different Triangle Island Encounters,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-86,Use Magicite in a Boss Battle,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-87,"See ""Need MP"" Message",Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-88,See a Weapon Proc,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-89,Defeat Shiva/Ifrit,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-90,Have Everyone with a Status Ailment,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-91,Check all Treasures in Albrook,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-92,Buy All Items in 5 Shops,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-93,"Spend 50,000gp in One Purchase",Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-94,Kill 3 Types of Enemy with a Revivify,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-95,Learn a New Spell from an Item,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-96,Recruit Mog,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-97,Check all Chests in Maranda,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-98,Sell 3 Things for 1gp,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-99,See an Enemy Reconstitute from Instant Death,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-100,Buy Three Things at Auction House,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-101,Break 6 Different Items,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-102,Use a Desperation Attack,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-103,Check all Treasures in Sealed Cave,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-104,Win 3 MiaB Battles,Segment 2 - (South Continent through Airship Crash),2,4,Task Completions
-105,Never Use Tonic or Potion,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-106,Never Buy Fenix Down,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-107,Always Have 1 Character Imp'ed (When Able),Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-108,Never Buy Relics,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-109,Never Buy Armor,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-110,Never Buy Weapons,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-111,Never Back Row a Character,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-112,Always Have an Open Character Slot (When Able),Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-113,Never Visit Tzen,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-114,Always Have One Relic Ring Equipped (When Able),Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-115,Never Sell Anything,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-116,Never Ride Chocobos,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-117,Never Have Level 19+ Character,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-118,Never Buy Shurikens,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-119,Never Use a Tent,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-120,Never Break an Item,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-121,Never Use Warp Stone,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-122,Everyone Always Has One Open Relic Slot,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-123,Never Cast Cure/2/3,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-124,Never Use Smoke Bomb,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
-125,Never Equip an Esper,Segment 2 - (South Continent through Airship Crash),2,3,Conducts
+1,"Enemy Uses Fire 2, Ice 2, or Bolt 2",Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+2,Enemy Uses Any L.X Lore,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+3,Enemy Uses Pep Up or Exploder,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+4,Enemy Uses Missile or Grav Bomb,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+5,Enemy Uses Magnitude8 or Giga Volt,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+6,Enemy Uses Stop or Net,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+7,Enemy Uses Pois. Frog or Plasma,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+8,Enemy Uses Tek Laser or Tek Barrier,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+9,Enemy Uses Cave In or Lode Stone,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+10,Enemy Uses Snowball or Stone,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+11,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+12,Enemy Uses Bio or Break,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+13,Enemy Uses Launcher or Dread,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+14,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+15,Enemy Uses Fire Ball or Blaze,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+16,Enemy Uses Schiller or Shock Wave,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+17,Enemy Uses CleanSweep or Wind Slash,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+18,Enemy Uses Megazerk or Specter,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+19,Enemy Uses Confusion or Confuser,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+20,Enemy Uses WaveCannon or Atomic Ray,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+21,Enemy Uses Ice Rabbit or Sun Bath,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+22,Enemy Uses Imp Song or Lullaby,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+23,Enemy Uses Dipel or Dischord,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+24,Enemy Uses Diffuser or Raid,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+25,Get Hit by a Safe or Shell Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+26,Get Hit by a Haste or Slow Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+27,Get Hit by a Seizure or Regen Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+28,Get Hit by a Poison or Darkness Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+29,Get Hit by a Mute or Imp Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+30,Get Hit by a Confuse or Berserk Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+31,Get Hit by a Condemned or Near Death Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+32,Get Hit by a Petrify or Stop Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+33,Get Hit by a Sleep or Morph Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
+34,Have 99 Shuriken,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+35,Have 99 Green Cherry,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+36,Have 99 Echo Screen,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+37,Have 99 Dried Meat,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+38,Have 99 Soft,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+39,Have all 5 Skean or Edge Types,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+40,Have 5 Tincture,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+41,Have 6 Different Tools,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+42,"Have 40,000gp",Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+43,Have 5 Warp Stone,Segment 2 - (South Continent through Airship Crash),2,2,Common Items/Resources
+44,Have 2 X-Potion,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
+45,Have X-Ether,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
+46,Have 2 Elixir,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
+47,Have 2 Ether,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
+48,Have 2 Magicite,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
+49,Have Tack Star,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
+50,"Have 2 of Cards, Dice, or Darts",Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+51,Have 2 Brushes,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+52,Have 4 Elemental Rods,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+53,Have all 3 Elemental Swords,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+54,Have Poison Claw or Fire Knuckle,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+55,Have Safety Bit or Memento Ring,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+56,Have Relic Ring or Tintinibar,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+57,Have Power Sash AND Tiger Mask,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+58,Have Boomerang or Full Moon,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+59,Have 2 Command Changing Items,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+60,Have Oath Veil or Mystery Veil,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+61,Have Back Guard or Gale Hairpin,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+62,Have Gaia Gear or Cherub Down,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+63,Have Cure Ring or Amulet,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+64,Have Tiara or Beret,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+65,Have Murasame or Tempest,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+66,Have Break Blade or Enhancer,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+67,Have Hawk Eye or Rising Sun,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+68,Have Hardned or Assassin,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+69,Have a Full Gold Armor Set,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+70,Have Falchion or Crystal,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+71,Have Atma Weapon or Cat Hood,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+72,Have Genji Glove or Gauntlet,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+73,Have Hero Ring or Dragon Horn,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+74,Have Charm Bangle or Cursed Ring,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+75,Have Ribbon or Gold Hairpin,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+76,Check all Treasures in Magitek Factory,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+77,Check all Treasures in Sealed Cave,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+78,Defeat 4 Different Triangle Island Encounters,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+79,Use Magicite in a Boss Battle,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+80,"See ""Need MP"" Message",Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+81,See a Weapon Proc,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+82,Defeat Shiva/Ifrit,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+83,Have a Crane Release Energy,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+84,Learn 5 Different Lores,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+85,"Spend 50,000gp in One Purchase",Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+86,Revive 2 Types of Enemies to Death,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+87,Learn a New Spell from an Item,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+88,Recruit Mog,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+89,Check all Chests in Maranda,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+90,Sell 3 Things for 1gp,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+91,See an Undead Enemy Reconstitue,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+92,Buy Three Things at Auction House,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+93,Break 4 Different Items,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+94,Check all Treasures in Sealed Cave,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+95,Win 3 MiaB Battles,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
+96,Always Have 1 Character Imp'ed (When Able),Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+97,Never Back Row a Character,Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+98,Always Have 1 Open Character Slot (When Able),Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+99,Never Visit Tzen,Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+100,Always Equip 1 Relic Ring (When Able),Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+101,Never Ride Chocobos,Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+102,Everyone Always Has 1 Open Relic Slot,Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+103,"Never Cast Cure, Cure 2 or Cure 3",Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+104,Never Equip an Esper,Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
+105,Never Use Tonic,Segment 2 - (South Continent through Airship Crash),2,1,Use Conducts
+106,Never Use Potion,Segment 2 - (South Continent through Airship Crash),2,1,Use Conducts
+107,Never Use Tent,Segment 2 - (South Continent through Airship Crash),2,1,Use Conducts
+108,Never Use Smoke Bomb,Segment 2 - (South Continent through Airship Crash),2,1,Use Conducts
+109,Never Use Warp Stone,Segment 2 - (South Continent through Airship Crash),2,1,Use Conducts
+110,Never Break an Item,Segment 2 - (South Continent through Airship Crash),2,1,Use Conducts
+111,Never Use Green Cherry,Segment 2 - (South Continent through Airship Crash),2,1,Use Conducts
+112,Never Buy Fenix Down,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
+113,Never Buy Relics,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
+114,Never Buy Armor,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
+115,Never Buy Weapons,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
+116,Never Buy Tools,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
+117,Never Buy Shirukens,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
+118,Never Sell Anything,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
