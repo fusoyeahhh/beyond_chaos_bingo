@@ -456,7 +456,7 @@ class BCBingoBot(commands.Bot):
             return
 
         winners = self._pstate.get_winners("bingo", value)
-        self.assign_points(winners, "bingo")
+        self.assign_points("bingo", value)
 
         winners = ", ".join("@" + w for w in self._pstate.get_winners("bingo", value))
         await ctx.send(f"C H A O S ACHIEVED. Winners for {value}: {winners}")
