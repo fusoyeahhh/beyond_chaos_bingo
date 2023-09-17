@@ -153,7 +153,7 @@ class BCBingoBot(commands.Bot):
         "miab": 1,
         "deaths": 1,
     }
-    GUESS_WINDOW = 60 * 5
+    GUESS_WINDOW = 60 * 10
 
     def __init__(self, config, segment=1, restore_from=None):
         self._cfg = self.load_config(config)
@@ -273,7 +273,7 @@ class BCBingoBot(commands.Bot):
                 log.info("Firing timer event.")
                 self._toggle = False
                 await chan.send(f"Guesses for {self._segment} are now CLOSED.")
-            elif self._timer // 5 in list(range(0, 59, 5)):
+            elif self._timer // 5 in list(range(1, 59, 5)):
                 min_left = self._timer // 60
                 await chan.send(f"About {min_left} minutes left for segment {self._segment} guesses.")
 
