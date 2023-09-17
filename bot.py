@@ -268,7 +268,7 @@ class BCBingoBot(commands.Bot):
             chan = self.connected_channels[0]
             # FIXME: need to keep this in sync with the routine interval
             self._timer -= 10
-            if self._timer < 0:
+            if self._timer <= 0:
                 self._timer = None
                 log.info("Firing timer event.")
                 self._toggle = False
@@ -532,6 +532,7 @@ class BCBingoBot(commands.Bot):
         """
         self._timer = self.GUESS_WINDOW
         min_remain = self._timer // 60
+        self._toggle = True
         await ctx.send(f"Guesses for segment {self._segment} close in {min_remain} minutes.")
 
     @commands.command(name='opensegment', aliases=["os"], cls=AuthorizedCommand)
