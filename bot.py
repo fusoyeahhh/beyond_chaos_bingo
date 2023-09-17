@@ -272,7 +272,7 @@ class BCBingoBot(commands.Bot):
                 self._timer = None
                 log.info("Firing timer event.")
                 self._toggle = False
-                await chan.send(f"Guesses for {self.segment} are now CLOSED.")
+                await chan.send(f"Guesses for {self._segment} are now CLOSED.")
             elif self._timer // 5 in list(range(0, 59, 5)):
                 min_left = self._timer // 60
                 await chan.send(f"About {min_left} minutes left for segment {self._segment} guesses.")
