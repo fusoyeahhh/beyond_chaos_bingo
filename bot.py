@@ -3,6 +3,7 @@ import os
 import json
 import datetime
 import csv
+import random
 
 from twitchio.ext import commands, routines
 
@@ -343,7 +344,7 @@ class BCBingoBot(commands.Bot):
     @commands.command(name='guessbingo', aliases=["bingoguess", "bingo"])
     async def guessbingo(self, ctx):
         """
-        !guessbingo -> Guess which bingo will occur. Valid guesses are r{1-5}, c{1-5}, and du (lower corner left to upper corner right), dd (upper corner left to lower corner right).
+        !guessbingo -> Guess which bingo will occur. Valid guesses are r{1-5}, c{1-5}, and du (lower corner left to upper corner right), dd (upper corner left to lower corner right). Use !guessbingo random to get a random line.
         """
         user = ctx.author.name
         if not self._toggle:
@@ -356,9 +357,14 @@ class BCBingoBot(commands.Bot):
 
         try:
             _, value, *_ = ctx.message.content.split(" ")
+
+            value = value.strip().lower()
+            if value == "random":
+                value = random.choice(self._pstate.ALLOWED_BINGO_GUESSES)
+
             if not self._pstate.validate_guess(value):
                 raise ValueError("Invalid bingo specification.")
-            result = self._pstate.guess(user, "bingo", value.strip().lower())
+            result = self._pstate.guess(user, "bingo", value)
         except ValueError as e:
             log.error(str(e))
             valid = ", ".join(self._pstate.ALLOWED_BINGO_GUESSES)
