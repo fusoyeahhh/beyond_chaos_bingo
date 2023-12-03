@@ -1,8 +1,8 @@
 index,square,segment,segment_index,choices,type
 0,Don't Game Over or Reset,Segment 6 - (6 Segments Complete to Final Dungeon),6,,free
-1,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
+1,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
 2,Enemy Uses Flare or Pearl,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-3,Enemy Uses W Wind or Cyclonic,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
+3,Enemy Uses WWind or Cyclonic,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
 4,Enemy Uses Wild Bear or Pearl Wind,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
 5,Enemy Uses Quake or Merton,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
 6,Enemy Uses Aero or Storm,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
@@ -48,21 +48,21 @@ index,square,segment,segment_index,choices,type
 46,Have 4 X-Ether,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
 47,Have 3 Super Ball,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
 48,Have 5 Elixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
-49,Have Megalixer,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
+49,Have Megalixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
 50,"Have 999,999gp",Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
 51,Have Tiger Fangs or Aura Lance,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 52,Have a Full Genji Armor Set,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 53,Have Gradeus or Magus Rod,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 54,Have Exp. Egg or Moogle Charm,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 55,Have Sky Render or Wing Edge,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-56,Have All 3 Elemntal Shields,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
+56,Have All 3 Elemental Shields,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 57,Have All 4 Pieces of Imp Gear,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 58,Have Striker or Stunner,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 59,Have Force Armor or Force Shield,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 60,Have Minerva or Aegis Shield,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 61,Have Marvel Shoes or Merit Award,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
 62,Have Scimitar or Excalibur,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-63,Have ValliantKnife,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
+63,Have ValiantKnife,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
 64,Have Ragnarok,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
 65,Have Fixed Dice,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
 66,Have Illumina,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment

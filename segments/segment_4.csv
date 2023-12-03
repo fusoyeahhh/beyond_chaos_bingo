@@ -1,22 +1,21 @@
 index,square,segment,segment_index,choices,type
 0,Don't Game Over or Reset,Segment 4 - (WoR Start to Airship Get),4,,free
-1,Enemy Uses Reflect  or Reflect????,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-2,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-3,Enemy Uses Any L.X Lore,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-4,Enemy Uses Bio or Break,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-5,Enemy Uses Flare or Pearl,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-6,Enemy Uses Flash Rain or Sand Storm,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-7,Enemy Uses Absolute 0 or Meteo,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-8,Enemy Uses Snare or X-Fer,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-9,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-10,Enemy Uses Magnitude8 or Giga Volt,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-11,Enemy Uses Blaster or Mind Blast,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-12,Enemy Uses W Wind or Cyclonic,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-13,Enemy Uses Evil Toot or Disaster,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-14,Enemy Uses Pep Up or Exploder,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-15,Enemy Uses Stop or Net,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-16,Enemy Uses Doom or Condemned,Segment 4 - (WoR Start to Airship Get),4,4, Common Skills/Spells
-17,Enemy Uses W Wind or Cyclonic,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
+1,Enemy Uses Reflect  or Reflect????,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+2,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+3,Enemy Uses Any L.X Lore,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+4,Enemy Uses Bio or Break,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+5,Enemy Uses Flare or Pearl,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+6,Enemy Uses Flash Rain or Sand Storm,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+7,Enemy Uses Absolute 0 or Meteo,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+8,Enemy Uses Snare or X-Fer,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+9,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+10,Enemy Uses Magnitude8 or Giga Volt,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+11,Enemy Uses Blaster or Mind Blast,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+13,Enemy Uses Evil Toot or Disaster,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+14,Enemy Uses Pep Up or Exploder,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+15,Enemy Uses Stop or Net,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+16,Enemy Uses Doom or Condemned,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
+17,Enemy Uses WWind or Cyclonic,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
 18,Enemy Uses Step Mine or Blow Fish,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
 19,Enemy Uses Blaster or Mind Blast,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
 20,Enemy Uses R. Polarity or Phantasam,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
@@ -56,7 +55,7 @@ index,square,segment,segment_index,choices,type
 54,Have Drainer or Soul Sabre,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
 55,Have Light Robe or Tao Robe,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
 56,Have Thornlet or Regal Crown,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-57,"Have 5 Different "Suits"",Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
+57,Have 5 Different Suits,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
 58,Have all 4 Brushes,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
 59,Have an Elemental Shield,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
 60,Have Punisher or Heal Rod,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment

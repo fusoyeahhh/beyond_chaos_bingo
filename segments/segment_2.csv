@@ -13,7 +13,7 @@ index,square,segment,segment_index,choices,type
 11,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
 12,Enemy Uses Bio or Break,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
 13,Enemy Uses Launcher or Dread,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
-14,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
+14,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
 15,Enemy Uses Fire Ball or Blaze,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
 16,Enemy Uses Schiller or Shock Wave,Segment 2 - (South Continent through Airship Crash),2,4,Common Skills
 17,Enemy Uses CleanSweep or Wind Slash,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
@@ -22,7 +22,7 @@ index,square,segment,segment_index,choices,type
 20,Enemy Uses WaveCannon or Atomic Ray,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
 21,Enemy Uses Ice Rabbit or Sun Bath,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
 22,Enemy Uses Imp Song or Lullaby,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
-23,Enemy Uses Dipel or Dischord,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
+23,Enemy Uses Dispel or Dischord,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
 24,Enemy Uses Diffuser or Raid,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon/Rare Skills
 25,Get Hit by a Safe or Shell Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
 26,Get Hit by a Haste or Slow Special,Segment 2 - (South Continent through Airship Crash),2,2,Enemy Specials
@@ -50,8 +50,8 @@ index,square,segment,segment_index,choices,type
 48,Have 2 Magicite,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
 49,Have Tack Star,Segment 2 - (South Continent through Airship Crash),2,1,Uncommon Items/Resources
 50,"Have 2 of Cards, Dice, or Darts",Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
-51,Have 2 Brushes,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
-52,Have 4 Elemental Rods,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+51,Have 2 Different Brushes,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
+52,Have 4 Different Elemental Rods,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
 53,Have all 3 Elemental Swords,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
 54,Have Poison Claw or Fire Knuckle,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
 55,Have Safety Bit or Memento Ring,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
@@ -67,7 +67,7 @@ index,square,segment,segment_index,choices,type
 65,Have Murasame or Tempest,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
 66,Have Break Blade or Enhancer,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
 67,Have Hawk Eye or Rising Sun,Segment 2 - (South Continent through Airship Crash),2,4,Common Equipment
-68,Have Hardned or Assassin,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
+68,Have Hardened or Assassin,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
 69,Have a Full Gold Armor Set,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
 70,Have Falchion or Crystal,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
 71,Have Atma Weapon or Cat Hood,Segment 2 - (South Continent through Airship Crash),2,2,Uncommon Equipment
@@ -93,7 +93,6 @@ index,square,segment,segment_index,choices,type
 91,See an Undead Enemy Reconstitue,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
 92,Buy Three Things at Auction House,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
 93,Break 4 Different Items,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
-94,Check all Treasures in Sealed Cave,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
 95,Win 3 MiaB Battles,Segment 2 - (South Continent through Airship Crash),2,5,Task Completions
 96,Always Have 1 Character Imp'ed (When Able),Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
 97,Never Back Row a Character,Segment 2 - (South Continent through Airship Crash),2,1,Other Conducts
@@ -116,5 +115,5 @@ index,square,segment,segment_index,choices,type
 114,Never Buy Armor,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
 115,Never Buy Weapons,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
 116,Never Buy Tools,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
-117,Never Buy Shirukens,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
+117,Never Buy Shuriken,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
 118,Never Sell Anything,Segment 2 - (South Continent through Airship Crash),2,1,Shop Conducts
