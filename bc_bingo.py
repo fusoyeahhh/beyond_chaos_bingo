@@ -119,10 +119,23 @@ class BingoBoard:
             tags.Script([], js),
         ]
 
+        board_header = [f"Segment {self._seg}")]
+        prev_seg, next_seg = self._seg - 1, self._seg + 1
+        if prev_seg > 0:
+            board_header = [tags.A([
+                attributes.Href(f"../{prev_seg}")
+            ], f"Segment {self._seg - 1}"))] + board_header
+            board_header[-1] = " < " + board_header[-1]
+        if next_seg < 8:
+            board_header[-1] = board_header[-1] + " > "
+            board_header += [tags.A([
+                attributes.Href(f"../{next_seg}")
+            ], f"Segment {self._seg - 1}"))]
+
         body = [
             tags.Div([attributes.Class("header")], [
                 self.generate_counter("miab", "incCounterMIAB", "/static/miab.png"),
-                tags.Div([attributes.Class("segment")], f"Segment {self._seg}"),
+                tags.Div([attributes.Class("segment")], board_header),
                 self.generate_counter("death", "incCounterDeaths", "/static/squish.png"),
             ]),
             self.render_grid(),
