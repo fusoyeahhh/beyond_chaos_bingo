@@ -13,6 +13,7 @@ All chat users can use these commands.
  * `guessbingo` (also `bingoguess`, `bingo`) -- enter a guess for a bingo, should be one of `r{1-5}, c{1-5}, ll, ul`
  * `guessmiab` (also `miabguess`, `miab`) -- enter a guess for number of MiaBs in this segment
  * `guessdeaths` (also `deathsguess`, `deaths`) -- enter a guess for number of deaths in this segment
+ * `scoreboard` -- display the current player points
 
 ## Admin commands
 
