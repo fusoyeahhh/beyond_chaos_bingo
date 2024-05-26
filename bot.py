@@ -13,6 +13,15 @@ log = logging.getLogger(__name__)
 
 _DOC_BASE = "https://github.com/fusoyeahhh/beyond_chaos_bingo/blob/main/BINGO_RULES.md"
 
+def format_scoreboard(points. max_len=300):
+    chunks = [f"@{k}: {v}" for k, v in self._points.items()}
+
+    while len(chunks) > 0:
+        out = [chunks.pop(0)]
+        while len(chunks) > 0 and sum(map(len, out)) < max_len:
+            out.append(chunks.pop(0))
+        yield " | ".join(out)
+
 def closest_not_over(guesses, value):
     ordered = {k: value - v for k, v in guesses.items() if value - v >= 0}
     log.debug(str(guesses))
@@ -340,6 +349,15 @@ class BCBingoBot(commands.Bot):
         else:
             await ctx.send(f"@{user}, I didn't understand your request.")
     COMMANDS["bcb"] = bcb
+
+    @commands.command(name='scoreboard')
+    async def scoreboard(self, ctx):
+        """
+        !scoreboard -> show the scoreboard for the current seed.
+        """
+        for chunk in format_scoreboard(self._points):
+            await ctx.send(chunk)
+    COMMANDS["scoreboard"] = scoreboard
 
     @commands.command(name='guessbingo', aliases=["bingoguess", "bingo"])
     async def guessbingo(self, ctx):
