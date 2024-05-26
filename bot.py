@@ -13,8 +13,12 @@ log = logging.getLogger(__name__)
 
 _DOC_BASE = "https://github.com/fusoyeahhh/beyond_chaos_bingo/blob/main/BINGO_RULES.md"
 
-def format_scoreboard(points. max_len=300):
-    chunks = [f"@{k}: {v}" for k, v in self._points.items()}
+def format_scoreboard(points, max_len=300):
+    chunks = [f"@{k}: {v}" for k, v in points.items()]
+
+    if len(chunks) == 0:
+        yield "No scores yet."
+        return
 
     while len(chunks) > 0:
         out = [chunks.pop(0)]
