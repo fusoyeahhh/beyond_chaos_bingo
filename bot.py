@@ -150,7 +150,7 @@ class BCBingoBot(commands.Bot):
     COMMANDS = {}
 
     _POINTS_FOR = {
-        "bingo": 2,
+        "bingo": 3,
         "miab": 1,
         "deaths": 1,
     }
