@@ -129,7 +129,7 @@ class BingoBoard:
                     [attributes.Href(f"../{self._seed}/{prev_seg}")],
                     text
                 ),
-                tags.Div([], " < ")
+                tags.Div([], " &larr; ")
             ]
         else:
             elems = [
@@ -139,7 +139,7 @@ class BingoBoard:
                 ),
                 tags.Div(
                     [attributes.Class("header_hidden")],
-                    " < "
+                    " &larr; "
                 )
             ]
         board_header = elems + board_header
@@ -147,7 +147,7 @@ class BingoBoard:
         text = f"Segment {next_seg}"
         if self._seg < 7:
             elems = [
-                tags.Div([], " > "),
+                tags.Div([], " &rarr; "),
                 tags.A(
                     [attributes.Href(f"../{self._seed}/{next_seg}")],
                     text
@@ -157,7 +157,7 @@ class BingoBoard:
             elems = [
                 tags.Div(
                     [attributes.Class("header_hidden")],
-                    " > "
+                    " &rarr "
                 ),
                 tags.Div(
                     [attributes.Class("header_hidden")],
