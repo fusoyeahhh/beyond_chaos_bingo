@@ -20,6 +20,7 @@ General Rules:
 ### WoR Sidequests
 
 The Side-Quests in the World of Ruin are as follows:
+
  - Mt. Zozo (Obtaining Cyan)
  - Caves of Narshe (Obtaining Mog and Defeating Tritoch)
  - Yeti's Lair (Defeating Umaro)
