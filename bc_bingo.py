@@ -8,6 +8,16 @@ import itertools
 import pprint
 from enum import IntFlag, auto
 
+
+from htmlBuilder import tags, attributes
+class PreRenderedHtml(tags.HtmlTag):
+    def __init__(self, html):
+        super().__init__()
+        self._html = html
+
+    def _render(self, pretty=False, nesting_level=None):
+        return self._html
+
 class BingoBoard:
     class BingoSquare:
         @classmethod
@@ -79,6 +89,15 @@ class BingoBoard:
 
     def reset(self, ncols, nrows):
         self._board = [[None] * nrows for _ in range(ncols)]
+
+    @classmethod
+    def generate_rules(cls):
+        from htmlBuilder import tags, attributes
+        import markdown
+        with open("BINGO_RULES.md") as rulefile:
+            rules = rulefile.read()
+
+        return PreRenderedHtml(markdown.markdown(rules))
 
     def render_grid(self):
         from htmlBuilder import tags, attributes
@@ -204,6 +223,9 @@ def render_index(seed):
                 for seg in sorted(segments)]
         )
     ]
+
+    #try:
+    body += [BingoBoard.generate_rules()]
 
     index = tags.Html([],
             tags.Head([], head),
