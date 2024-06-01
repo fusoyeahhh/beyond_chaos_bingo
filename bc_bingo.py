@@ -90,13 +90,71 @@ class BingoBoard:
     def reset(self, ncols, nrows):
         self._board = [[None] * nrows for _ in range(ncols)]
 
+
     @classmethod
-    def generate_rules(cls):
+    def generate_index(cls, seed, nsegs, from_rules=True):
+        from htmlBuilder import tags, attributes
+
+        head = [
+            tags.Title([], "BC Bingo | Segment Selection"),
+        ]
+
+        if from_rules:
+            body = [cls.generate_rules(nsegs, seed)]
+        else:
+            body = [
+                tags.Div([], [f"Seed: {seed}"]),
+                tags.Ul(
+                    [],
+                    [
+                        tags.Li(
+                            [],
+                            tags.A(
+                                [attributes.Href(f"segment/{seed}/{seg}")],
+                                f"Segment {seg}"
+                            )
+                        )
+                        for seg in range(1, nsegs + 1)
+                    ]
+                )
+            ]
+
+            try:
+                body += [BingoBoard.generate_rules()]
+            except:
+                pass
+
+        return tags.Html(
+            [],
+            tags.Head([], head),
+            tags.Body([], body),
+        ).render(pretty=True)
+
+    @classmethod
+    def generate_rules(cls, nsegs=None, seed=None):
         from htmlBuilder import tags, attributes
         import markdown
-        with open("BINGO_RULES.md") as rulefile:
-            rules = rulefile.read()
 
+        with open("BINGO_RULES.md") as rulefile:
+            rules = rulefile.readlines()
+
+        if seed is not None:
+            rules.insert(1, f"Seed: {seed}\n")
+
+        if nsegs is not None:
+            assert seed is not None, \
+                "Trying to inject URL into index, but no seed given."
+
+            for _ in range(len(rules)):
+                line = rules.pop(0)
+                for seg_num in range(1, nsegs + 1):
+                    if line.startswith(f" - Segment {seg_num:d}"):
+                        url = "/".join(["segment", str(seed), str(seg_num)])
+                        _, text = line.rsplit("-", 1)
+                        line = f" - [Segment {seg_num:d}]({url}) - {text}"
+                rules.append(line)
+
+        rules = "".join(rules)
         return PreRenderedHtml(markdown.markdown(rules))
 
     def render_grid(self):
@@ -207,31 +265,12 @@ def render_index(seed):
     else:
         seed = int(time.time())
 
-    from htmlBuilder import tags, attributes
-    segments = {int(f.replace(".csv", "").split("_")[-1]): f
-                    for f in glob.glob("segments/segment_*.csv")}
+    segments = {
+        int(f.replace(".csv", "").split("_")[-1]): f
+        for f in glob.glob("segments/segment_*.csv")
+    }
 
-    head = [
-        tags.Title([], "BC Bingo | Segment Selection"),
-    ]
-
-    body = [
-        tags.Div([], [f"Seed: {seed}"]),
-        tags.Ul([],
-            [tags.Li([], tags.A([attributes.Href(f"segment/{seed}/{seg}")],
-                                f"Segment {seg}"))
-                for seg in sorted(segments)]
-        )
-    ]
-
-    #try:
-    body += [BingoBoard.generate_rules()]
-
-    index = tags.Html([],
-            tags.Head([], head),
-            tags.Body([], body),
-        ).render(pretty=True)
-
+    index = BingoBoard.generate_index(seed, len(segments))
     return flask.render_template_string(index)
 
 @app.route("/segment/", defaults={"seed": None, "seg": "1"})
