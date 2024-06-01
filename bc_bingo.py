@@ -36,7 +36,7 @@ class BingoBoard:
 
     def __init__(self, option_pool, seed=0, segment=None, ncols=5, nrows=5):
         self.size = (ncols, nrows)
-        self._seg = segment
+        self._seg = int(segment)
         self.reset(*self.size)
 
         self._seed = seed
@@ -119,18 +119,18 @@ class BingoBoard:
             tags.Script([], js),
         ]
 
-        board_header = [f"Segment {self._seg}")]
+        board_header = [f"Segment {self._seg}"]
         prev_seg, next_seg = self._seg - 1, self._seg + 1
         if prev_seg > 0:
             board_header = [tags.A([
-                attributes.Href(f"../{prev_seg}")
-            ], f"Segment {self._seg - 1}"))] + board_header
+                attributes.Href(f"../{self._seed}/{prev_seg}")
+            ], f"Segment {self._seg - 1}")] + board_header
             board_header[-1] = " < " + board_header[-1]
         if next_seg < 8:
             board_header[-1] = board_header[-1] + " > "
             board_header += [tags.A([
-                attributes.Href(f"../{next_seg}")
-            ], f"Segment {self._seg - 1}"))]
+                attributes.Href(f"../{self._seed}/{next_seg}")
+            ], f"Segment {self._seg + 1}")]
 
         body = [
             tags.Div([attributes.Class("header")], [
