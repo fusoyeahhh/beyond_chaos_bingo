@@ -104,6 +104,40 @@ class BingoBoard:
         ])
         return
 
+    def create_header(self):
+        from htmlBuilder import tags, attributes
+
+        board_header = [f"Segment {self._seg}"]
+        prev_seg, next_seg = self._seg - 1, self._seg + 1
+
+        text = f"Segment {prev_seg}"
+        if self._seg > 1:
+            elems = [
+                tags.A([attributes.Href(f"../{self._seed}/{prev_seg}")], text),
+                tags.Div([], " &larr; ")
+            ]
+        else:
+            elems = [
+                tags.Div([attributes.Class("header_hidden")], text),
+                tags.Div([attributes.Class("header_hidden")], " &larr; ")
+            ]
+        board_header = elems + board_header
+
+        text = f"Segment {next_seg}"
+        if self._seg < 7:
+            elems = [
+                tags.Div([], " &rarr; "),
+                tags.A([attributes.Href(f"../{self._seed}/{next_seg}")], text)
+            ]
+        else:
+            elems = [
+                tags.Div([attributes.Class("header_hidden")], " &rarr "),
+                tags.Div([attributes.Class("header_hidden")], text)
+            ]
+        board_header += elems
+
+        return board_header
+
     def render(self):
         from htmlBuilder import tags, attributes
 
@@ -119,52 +153,6 @@ class BingoBoard:
             tags.Script([], js),
         ]
 
-        board_header = [f"Segment {self._seg}"]
-        prev_seg, next_seg = self._seg - 1, self._seg + 1
-
-        text = f"Segment {prev_seg}"
-        if self._seg > 1:
-            elems = [
-                tags.A(
-                    [attributes.Href(f"../{self._seed}/{prev_seg}")],
-                    text
-                ),
-                tags.Div([], " &larr; ")
-            ]
-        else:
-            elems = [
-                tags.Div(
-                    [attributes.Class("header_hidden")],
-                    text,
-                ),
-                tags.Div(
-                    [attributes.Class("header_hidden")],
-                    " &larr; "
-                )
-            ]
-        board_header = elems + board_header
-
-        text = f"Segment {next_seg}"
-        if self._seg < 7:
-            elems = [
-                tags.Div([], " &rarr; "),
-                tags.A(
-                    [attributes.Href(f"../{self._seed}/{next_seg}")],
-                    text
-                )
-            ]
-        else:
-            elems = [
-                tags.Div(
-                    [attributes.Class("header_hidden")],
-                    " &rarr "
-                ),
-                tags.Div(
-                    [attributes.Class("header_hidden")],
-                    text,
-                )
-            ]
-        board_header += elems
 
         header = tags.Div([attributes.Class("header")], [
             self.generate_counter("miab", "incCounterMIAB", "/static/miab.png"),
@@ -172,7 +160,7 @@ class BingoBoard:
                 [attributes.Class("segment")],
                 tags.Div(
                     [attributes.Class("header_inner")],
-                    board_header
+                    self.create_header()
                 )
             ),
             self.generate_counter("death", "incCounterDeaths", "/static/squish.png"),
