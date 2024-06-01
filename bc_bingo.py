@@ -121,23 +121,65 @@ class BingoBoard:
 
         board_header = [f"Segment {self._seg}"]
         prev_seg, next_seg = self._seg - 1, self._seg + 1
-        if prev_seg > 0:
-            board_header = [tags.A([
-                attributes.Href(f"../{self._seed}/{prev_seg}")
-            ], f"Segment {self._seg - 1}")] + board_header
-            board_header[-1] = " < " + board_header[-1]
-        if next_seg < 8:
-            board_header[-1] = board_header[-1] + " > "
-            board_header += [tags.A([
-                attributes.Href(f"../{self._seed}/{next_seg}")
-            ], f"Segment {self._seg + 1}")]
+
+        text = f"Segment {prev_seg}"
+        if self._seg > 1:
+            elems = [
+                tags.A(
+                    [attributes.Href(f"../{self._seed}/{prev_seg}")],
+                    text
+                ),
+                tags.Div([], " < ")
+            ]
+        else:
+            elems = [
+                tags.Div(
+                    [attributes.Class("header_hidden")],
+                    text,
+                ),
+                tags.Div(
+                    [attributes.Class("header_hidden")],
+                    " < "
+                )
+            ]
+        board_header = elems + board_header
+
+        text = f"Segment {next_seg}"
+        if self._seg < 7:
+            elems = [
+                tags.Div([], " > "),
+                tags.A(
+                    [attributes.Href(f"../{self._seed}/{next_seg}")],
+                    text
+                )
+            ]
+        else:
+            elems = [
+                tags.Div(
+                    [attributes.Class("header_hidden")],
+                    " > "
+                ),
+                tags.Div(
+                    [attributes.Class("header_hidden")],
+                    text,
+                )
+            ]
+        board_header += elems
+
+        header = tags.Div([attributes.Class("header")], [
+            self.generate_counter("miab", "incCounterMIAB", "/static/miab.png"),
+            tags.Div(
+                [attributes.Class("segment")],
+                tags.Div(
+                    [attributes.Class("header_inner")],
+                    board_header
+                )
+            ),
+            self.generate_counter("death", "incCounterDeaths", "/static/squish.png"),
+        ])
 
         body = [
-            tags.Div([attributes.Class("header")], [
-                self.generate_counter("miab", "incCounterMIAB", "/static/miab.png"),
-                tags.Div([attributes.Class("segment")], board_header),
-                self.generate_counter("death", "incCounterDeaths", "/static/squish.png"),
-            ]),
+            header,
             self.render_grid(),
         ]
 
