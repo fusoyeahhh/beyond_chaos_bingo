@@ -3,6 +3,7 @@
 BC Bingo is a game centered around the Beyond Chaos randomizer that is heavily influenced by [gyre's](https://twitch/.tv/gyre) Final Fantasy Bingo, just structured differently. Because the game is so long, and the list of things you can see is so vast, the game is structured into 7 different segments --- each with a unique list of things that can generate on a bingo card.
 
 General Rules:
+
  - You may not use save states.
  - You may not continue to the next segment until you have obtained a bingo for the segment you am currently in. If you do, it is an automatic run over by disqualification.
  - In Segment 6, once bingo is obtained, you must stop all side-questing and immediately begin Kefka's Tower.
