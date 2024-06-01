@@ -1,15 +1,21 @@
 #!/usr/bin/env python
+import sys
 import re
 import glob
 import random
 import csv
 import time
 import itertools
-import pprint
-from enum import IntFlag, auto
 
+try:
+    from htmlBuilder import tags, attributes
+    import markdown
+except ImportError:
+    print("Some non-standard modules need to be installed "
+          "in order to run. Please (re-)run:\n"
+          "pip install -r requirements.txt")
+    sys.exit()
 
-from htmlBuilder import tags, attributes
 class PreRenderedHtml(tags.HtmlTag):
     def __init__(self, html):
         super().__init__()
@@ -22,7 +28,6 @@ class BingoBoard:
     class BingoSquare:
         @classmethod
         def render_text(cls, text):
-            from htmlBuilder import tags, attributes
             text = re.split(f"__", text)
             n = len(text)
             for i, t in enumerate(text[:]):
@@ -93,8 +98,6 @@ class BingoBoard:
 
     @classmethod
     def generate_index(cls, seed, nsegs, from_rules=True):
-        from htmlBuilder import tags, attributes
-
         head = [
             tags.Title([], "BC Bingo | Segment Selection"),
         ]
@@ -132,9 +135,6 @@ class BingoBoard:
 
     @classmethod
     def generate_rules(cls, nsegs=None, seed=None):
-        from htmlBuilder import tags, attributes
-        import markdown
-
         with open("BINGO_RULES.md") as rulefile:
             rules = rulefile.readlines()
 
@@ -158,7 +158,6 @@ class BingoBoard:
         return PreRenderedHtml(markdown.markdown(rules))
 
     def render_grid(self):
-        from htmlBuilder import tags, attributes
         return tags.Div([attributes.Class("bingo_grid")],
             [tags.Div([attributes.Class("bingo_col")], 
                 [tags.Div([attributes.Class("bingo_header")], c)] +
@@ -169,7 +168,6 @@ class BingoBoard:
         )
 
     def generate_counter(self, name, func, img_src):
-        from htmlBuilder import tags, attributes
         _name = name.replace("_", " ")
 
         return tags.Div([attributes.Class(f"counter {name}")], [
@@ -182,8 +180,6 @@ class BingoBoard:
         return
 
     def create_header(self):
-        from htmlBuilder import tags, attributes
-
         board_header = [f"Segment {self._seg}"]
         prev_seg, next_seg = self._seg - 1, self._seg + 1
 
@@ -216,8 +212,6 @@ class BingoBoard:
         return board_header
 
     def render(self):
-        from htmlBuilder import tags, attributes
-
         with open("bingo.css", "r") as css:
             css_style = css.read()
 
