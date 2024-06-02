@@ -40,14 +40,26 @@ class BingoBoard:
         def text(self):
             return self.render_text(self._text)
 
-        def __init__(self, text):
+        def __init__(self, text, ttip=None):
             self._text = text
+            self._help = ttip
 
         def __str__(self):
+            if self._help is not None:
+                return f"({self.text} [self._help]"
             return f"({self.text}"
 
         def __repr__(self):
-            return f"({self.text}"
+            return f"{self.text}"
+
+        def to_div(self):
+            attrs = [
+                attributes.Class("bingo_sq inactive"),
+                attributes.Onclick("toggleState(this);")
+            ]
+            if self._help:
+                attrs.append(attributes.Title(self._help))
+            return tags.Div(attrs, self.text) 
 
     def __init__(self, option_pool, seed=0, segment=None, ncols=5, nrows=5):
         self.size = (ncols, nrows)
@@ -80,7 +92,7 @@ class BingoBoard:
                     f"Group {t} has insufficient length to sample {c} items"
             chosen += random.sample(grping, k=c)
 
-        return [ch["square"] for ch in chosen]
+        return [ch for ch in chosen]
 
     def generate(self, segment=None):
         selection = self.sample_pool(segment or self._seg)
@@ -90,7 +102,8 @@ class BingoBoard:
             for i, val in enumerate(col):
                 if val is not None:
                     continue
-                col[i] = self.BingoSquare(selection.pop())
+                sq = selection.pop()
+                col[i] = self.BingoSquare(sq["square"], sq.get("help"))
 
     def reset(self, ncols, nrows):
         self._board = [[None] * nrows for _ in range(ncols)]
@@ -158,13 +171,16 @@ class BingoBoard:
         return PreRenderedHtml(markdown.markdown(rules))
 
     def render_grid(self):
-        return tags.Div([attributes.Class("bingo_grid")],
-            [tags.Div([attributes.Class("bingo_col")], 
-                [tags.Div([attributes.Class("bingo_header")], c)] +
-                [tags.Div([attributes.Class("bingo_sq inactive"),
-                           attributes.Onclick("toggleState(this);")],
-                           sq.text) for sq in col]
-                ) for c, col in zip("CHAOS", self._board)]
+        return tags.Div(
+            [attributes.Class("bingo_grid")],
+            [
+                tags.Div(
+                    [attributes.Class("bingo_col")], 
+                    [tags.Div([attributes.Class("bingo_header")], c)] \
+                    + [sq.to_div() for sq in col]
+                )
+                for c, col in zip("CHAOS", self._board)
+            ]
         )
 
     def generate_counter(self, name, func, img_src):
