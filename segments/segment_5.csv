@@ -1,112 +1,112 @@
-index,square,segment,segment_index,choices,type
-0,Don't Game Over or Reset,Segment 5 - (Airship Get to 6 Segments Complete),5,,free
-1,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-2,Enemy Uses Flare or Pearl,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-3,Enemy Uses WWind or Cyclonic,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-4,Enemy Uses Wild Bear or Pearl Wind,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-5,"Enemy Uses Fire Skean, Water Edge, or Bolt Edge",Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-6,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-7,Enemy Uses Whump or Wombat,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-8,Enemy Uses Charm or Love Token,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-9,Enemy Uses Cold Dust or N. Cross,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-10,Enemy Uses Slide or Surge,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-11,Enemy Uses Reflect  or Reflect????,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-12,Enemy Uses Absolute 0 or Meteo,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-13,Enemy Uses Step Mine or Blow Fish,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-14,Enemy Uses Flare Star or Quasar,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-15,Enemy Uses TekMissile or Cockatrice,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-16,Enemy Uses Dispel or Dischord,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells
-17,Enemy Uses Aero or Storm,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-18,Enemy Uses Quake or Merton,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-19,Enemy Uses Rage or Shrapnel,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-20,Enemy Uses Bio Blast or S. Cross,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-21,Enemy Uses Delta Hit or Soul Out,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-22,Enemy Uses Overcast or X-Zone,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-23,Enemy Uses Escape or Goner,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-24,Enemy Uses Meteor or Land Slide,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells
-25,Get Hit by a Zombie or Instant Death Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-26,Get Hit by a Haste or Slow Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-27,Get Hit by a Seizure or Regen Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-28,Get Hit by a Poison or Darkness Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-29,Get Hit by a Mute or Imp Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-30,Get Hit by a Confuse or Berserk Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-31,Get Hit by a Petrify or Stop Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-32,Get Hit by a Sleep or Morph Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials
-33,Have 99 Remedy,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-34,Have 99 Sleeping Bag,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-35,Have 99 Tent,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-36,Have 99 Revivify,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-37,Have 99 Warp Stone,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-38,Have 99 Fenix Down,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-39,Have 99 Tincture,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-40,Have 99 Ninja Star,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-41,"Have 250,000gp",Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-42,Have 2 Super Ball,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources
-43,Have 4 X-Potion,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources
-44,Have 3 X-Ether,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources
-45,Have 4 Elixir,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources
-46,Have 4 Ether,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources
-47,Have 4 Magicite,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources
-48,Have Megalixer,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources
-49,Have Tiger Fangs or Aura Lance,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-50,Have a Full Genji Armor Set,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-51,Have Gradeus or Magus Rod,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-52,Have Exp. Egg or Moogle Charm,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-53,Have Sky Render or Wing Edge,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-54,Have All 3 Elemntal Shields,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-55,Have All 4 Pieces of Imp Gear,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-56,Have Striker or Stunner,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-57,Have Force Armor or Force Shield,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-58,Have Minerva or Aegis Shield,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-59,Have Marvel Shoes or Merit Award,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-60,Have Scimitar or Excalibur,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics
-61,Bet Something for ???? in Colisseum,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-62,Use Magicite in a Boss Battle,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-63,"See ""Need MP Message""",Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-64,See an Enemy Die of Poison/Sap,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-65,Sell 3 Things for 1gp,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-66,Defeat 5 Dinosaur Forest Encounters,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-67,Do 9999 dmg in One Hit,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-68,Defeat 4 Dragons,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-69,"Show 10,000+ Exp. Gained in Battle",Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-70,Examine the Nightshade Painting,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-71,Defeat 3 MiaB Encounters,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions
-72,Defeat Chadarnook,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-73,Defeat Wrexsoul,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-74,Defeat Doom Gaze,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-75,Defeat Umaro,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-76,Defeat Phunbaba,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-77,Tell Gogo your Story,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-78,Defeat L.255 Magic,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-79,Open Cyan's Secret Box,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-80,Trade Odin for Raiden,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-81,Defeat SrBehemoth and his Buddy,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-82,Defeat Tritoch,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-83,Defeat Hidon,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-84,Reach the End of Phoenix Cave,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-85,Defeat the Dragon in the Opera House,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices
-86,Never Visit Duncan,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-87,Never Recruit Shadow,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-88,Never Back Row a Character,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-89,Always Have 1 Open Character Slot,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-90,Never Equip a Weapon,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-91,Always Have 1 Relic Ring Equipped,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-92,Never Equip Wall Ring,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-93,Everyone Always Has 1 Open Relic Slot,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-94,Never Break an Item,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-95,Never Use Ether or Tincture,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-96,Never Equip Safety Bit or Memento Ring,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-97,Never Land on Solitary Island,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts
-98,Never Cast Vanish or Phantom,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts
-99,Never Cast Float,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts
-100,"Never Cast Life, Life 2, or Life 3",Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts
-101,"Never Cast Cure, Cure 2, or Cure 3",Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts
-102,Never Cast Ultima,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts
-103,Never Cast Osmose,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts
-104,Never Cast X-Zone,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts
-105,Never Buy Fenix Down,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts
-106,Never Buy Relics,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts
-107,Never Buy Armor,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts
-108,Never Buy Weapons,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts
-109,Never Sell Anything,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts
-110,Never Buy Shuriken or Ninja Star,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts
+index,square,segment,segment_index,choices,type,help
+0,Don't Game Over or Reset,Segment 5 - (Airship Get to 6 Segments Complete),5,,free,
+1,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+2,Enemy Uses Flare or Pearl,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+3,Enemy Uses WWind or Cyclonic,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+4,Enemy Uses Wild Bear or Pearl Wind,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+5,"Enemy Uses Fire Skean, Water Edge, or Bolt Edge",Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+6,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+7,Enemy Uses Whump or Wombat,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+8,Enemy Uses Charm or Love Token,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+9,Enemy Uses Cold Dust or N. Cross,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+10,Enemy Uses Slide or Surge,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+11,Enemy Uses Reflect  or Reflect????,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+12,Enemy Uses Absolute 0 or Meteo,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+13,Enemy Uses Step Mine or Blow Fish,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+14,Enemy Uses Flare Star or Quasar,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+15,Enemy Uses TekMissile or Cockatrice,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+16,Enemy Uses Dispel or Dischord,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Common Skills/Spells,
+17,Enemy Uses Aero or Storm,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+18,Enemy Uses Quake or Merton,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+19,Enemy Uses Rage or Shrapnel,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+20,Enemy Uses Bio Blast or S. Cross,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+21,Enemy Uses Delta Hit or Soul Out,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+22,Enemy Uses Overcast or X-Zone,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+23,Enemy Uses Escape or Goner,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+24,Enemy Uses Meteor or Land Slide,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Rare Skills/Spells,
+25,Get Hit by a Zombie or Instant Death Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+26,Get Hit by a Haste or Slow Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+27,Get Hit by a Seizure or Regen Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+28,Get Hit by a Poison or Darkness Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+29,Get Hit by a Mute or Imp Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+30,Get Hit by a Confuse or Berserk Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+31,Get Hit by a Petrify or Stop Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+32,Get Hit by a Sleep or Morph Special,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Enemy Specials,
+33,Have 99 Remedy,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+34,Have 99 Sleeping Bag,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+35,Have 99 Tent,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+36,Have 99 Revivify,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+37,Have 99 Warp Stone,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+38,Have 99 Fenix Down,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+39,Have 99 Tincture,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+40,Have 99 Ninja Star,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+41,"Have 250,000gp",Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+42,Have 2 Super Ball,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Common Items/Resources,
+43,Have 4 X-Potion,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources,
+44,Have 3 X-Ether,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources,
+45,Have 4 Elixir,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources,
+46,Have 4 Ether,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources,
+47,Have 4 Magicite,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources,
+48,Have Megalixer,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Uncommon Items/Resources,
+49,Have Tiger Fangs or Aura Lance,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+50,Have a Full Genji Armor Set,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+51,Have Gradeus or Magus Rod,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+52,Have Exp. Egg or Moogle Charm,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+53,Have Sky Render or Wing Edge,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+54,Have All 3 Elemntal Shields,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+55,Have All 4 Pieces of Imp Gear,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+56,Have Striker or Stunner,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+57,Have Force Armor or Force Shield,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+58,Have Minerva or Aegis Shield,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+59,Have Marvel Shoes or Merit Award,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+60,Have Scimitar or Excalibur,Segment 5 - (Airship Get to 6 Segments Complete),5,3,Equipment/Relics,
+61,Bet Something for ???? in Colisseum,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+62,Use Magicite in a Boss Battle,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+63,"See ""Need MP Message""",Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+64,See an Enemy Die of Poison/Sap,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+65,Sell 3 Things for 1gp,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+66,Defeat 5 Dinosaur Forest Encounters,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+67,Do 9999 dmg in One Hit,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+68,Defeat 4 Dragons,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+69,"Show 10,000+ Exp. Gained in Battle",Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+70,Examine the Nightshade Painting,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+71,Defeat 3 MiaB Encounters,Segment 5 - (Airship Get to 6 Segments Complete),5,2,Task Completions,
+72,Defeat Chadarnook,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+73,Defeat Wrexsoul,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+74,Defeat Doom Gaze,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+75,Defeat Umaro,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+76,Defeat Phunbaba,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+77,Tell Gogo your Story,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+78,Defeat L.255 Magic,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+79,Open Cyan's Secret Box,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+80,Trade Odin for Raiden,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+81,Defeat SrBehemoth and his Buddy,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+82,Defeat Tritoch,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+83,Defeat Hidon,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+84,Reach the End of Phoenix Cave,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+85,Defeat the Dragon in the Opera House,Segment 5 - (Airship Get to 6 Segments Complete),5,7,Side Quest Choices,
+86,Never Visit Duncan,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+87,Never Recruit Shadow,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+88,Never Back Row a Character,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+89,Always Have 1 Open Character Slot,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+90,Never Equip a Weapon,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+91,Always Have 1 Relic Ring Equipped,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+92,Never Equip Wall Ring,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+93,Everyone Always Has 1 Open Relic Slot,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+94,Never Break an Item,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+95,Never Use Ether or Tincture,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+96,Never Equip Safety Bit or Memento Ring,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+97,Never Land on Solitary Island,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Other Conducts,
+98,Never Cast Vanish or Phantom,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts,
+99,Never Cast Float,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts,
+100,"Never Cast Life, Life 2, or Life 3",Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts,
+101,"Never Cast Cure, Cure 2, or Cure 3",Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts,
+102,Never Cast Ultima,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts,
+103,Never Cast Osmose,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts,
+104,Never Cast X-Zone,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Cast Conducts,
+105,Never Buy Fenix Down,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts,
+106,Never Buy Relics,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts,
+107,Never Buy Armor,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts,
+108,Never Buy Weapons,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts,
+109,Never Sell Anything,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts,
+110,Never Buy Shuriken or Ninja Star,Segment 5 - (Airship Get to 6 Segments Complete),5,1,Shop Conducts,

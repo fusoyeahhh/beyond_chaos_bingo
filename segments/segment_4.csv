@@ -1,121 +1,121 @@
-index,square,segment,segment_index,choices,type
-0,Don't Game Over or Reset,Segment 4 - (WoR Start to Airship Get),4,,free
-1,Enemy Uses Reflect  or Reflect????,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-2,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-3,Enemy Uses Any L.X Lore,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-4,Enemy Uses Bio or Break,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-5,Enemy Uses Flare or Pearl,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-6,Enemy Uses Flash Rain or Sand Storm,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-7,Enemy Uses Absolute 0 or Meteo,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-8,Enemy Uses Snare or X-Fer,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-9,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-10,Enemy Uses Magnitude8 or Giga Volt,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-11,Enemy Uses Blaster or Mind Blast,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-13,Enemy Uses Evil Toot or Disaster,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-14,Enemy Uses Pep Up or Exploder,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-15,Enemy Uses Stop or Net,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-16,Enemy Uses Doom or Condemned,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells
-17,Enemy Uses WWind or Cyclonic,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-18,Enemy Uses Step Mine or Blow Fish,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-19,Enemy Uses Blaster or Mind Blast,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-20,Enemy Uses R. Polarity or Phantasam,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-21,Enemy Uses Slide or Surge,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-22,Enemy Uses Sour Mouth or ChokeSmoke,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-23,Enemy Uses Revenge or Revenger,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-24,Enemy Uses Wild Bear or Pearl Wind,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells
-25,Get Hit by a Zombie or Instant Death Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-26,Get Hit by a Haste or Slow Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-27,Get Hit by a Seizure or Regen Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-28,Get Hit by a Poison or Darkness Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-29,Get Hit by a Mute or Imp Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-30,Get Hit by a Confuse or Berserk Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-31,Get Hit by a Petrify or Stop Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-32,Get Hit by a Sleep or Morph Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials
-33,Have 99 Remedy,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-34,Have 99 Potion,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-35,Have 99 Dried Meat,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-36,Have 99 Green Cherry,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-37,Have 99 Soft,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-38,Have 99 Revivify,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-39,Have All 8 Tools,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-40,"Have 100,000gp",Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-41,Have 20 Warp Stone,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-42,Have 20 Tincture,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources
-43,Have 3 X-Potion,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources
-44,Have 2 X-Ether,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources
-45,Have 3 Elixir,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources
-46,Have 3 Ether,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources
-47,Have 3 Magicite,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources
-48,Have Super Ball,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources
-49,Have SwordBreaker or Man Eater,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-50,Have Dragon Claw or Pearl Lance,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-51,Have Doom Darts or Trump,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-52,Have Rage Ring or Blizzard Orb,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-53,Have all 6 Elemental Rods,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-54,Have Drainer or Soul Sabre,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-55,Have Light Robe or Tao Robe,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-56,Have Thornlet or Regal Crown,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-57,Have 5 Different Suits,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-58,Have all 4 Brushes,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-59,Have an Elemental Shield,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-60,Have Punisher or Heal Rod,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-61,Have Hero Ring or Dragon Horn,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-62,Have Genji Glove or Gauntlet,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-63,Have Czarina Gown or Pod Bracelet,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-64,Have Red Jacket or Red Cap,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment
-65,Have Tiger Fangs or Aura Lance,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-66,Have Aura or Strato,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-67,Have a Full Crystal Armor Set,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-68,Have Dark Gear and Dark Hood,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-69,Have Gradeus or Magus Rod,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-70,Have Circlet or Coronet,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-71,Have Exp. Egg or Moogle Charm,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-72,Have Sky Render or Wing Edge,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment
-73,Check all Chests in Figaro Castle,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-74,Bet Something for ???? in Colisseum,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-75,Save Cid,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-76,Use Magicite in a Boss Battle,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-77,"See ""Need MP"" Message",Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-78,See a Weapon Proc,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-79,See an Enemy Die of Poison or Sap,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-80,Make Phunbaba Escape,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-81,Carve the Tomb Message in Daryl's Tomb,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-82,Defeat an Encounter on 5 Terrains,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-83,"Spend 75,000gp in One Purchase",Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-84,Revive 3 Types of Enemy to Death,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-85,Learn a New Spell from an Item,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-86,Check all Chests in South Figaro,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-87,Check all Chests in South Figaro Cave,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-88,Sell 3 Things for 1gp,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-89,See an Undead Enemy Reconstitute,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-90,Do 5000dmg or More in One Hit,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-91,Break 4 Different Items,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-92,Defeat 3 MiaB Encounters,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions
-93,Never Visit Tzen,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-94,Never Ride a Chocobo,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-95,Never Back Row a Character,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-96,Never Equip Ribbon,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-97,Never Equip a Weapon,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-98,Always Have 1 Relic Ring Equipped (When Able),Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-99,Never Equip Wall Ring,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-100,Never Cast Float,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-101,Everyone Always Has 1 Open Relic Slot,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-102,"Never Cast Cure, Cure 2, or Cure 3",Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-103,Never Equip an Esper,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-104,Never Cast Life or Life 2,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-105,Never Equip Safety Bit or Memento Ring,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts
-106,Never Use Potion,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-107,Never Use X-Potion,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-108,Never Use Elixir,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-109,Never Use Smoke Bomb,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-110,Never Use Tincture,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-111,Never Use Warp Stone,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-112,Never Break an Item,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-113,Never Use Tent,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-114,Never Use Remedy,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts
-115,Never Buy Relics,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts
-116,Never Buy Armor,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts
-117,Never Buy Weapons,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts
-118,Never Buy Fenix Down,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts
-119,Never Sell Anything,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts
-120,Never Buy Tools,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts
+index,square,segment,segment_index,choices,type,help
+0,Don't Game Over or Reset,Segment 4 - (WoR Start to Airship Get),4,,free,
+1,Enemy Uses Reflect  or Reflect????,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+2,"Enemy Uses Fire 3, Ice3 or Bolt 3",Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+3,Enemy Uses Any L.X Lore,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+4,Enemy Uses Bio or Break,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+5,Enemy Uses Flare or Pearl,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+6,Enemy Uses Flash Rain or Sand Storm,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+7,Enemy Uses Absolute 0 or Meteo,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+8,Enemy Uses Snare or X-Fer,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+9,"Enemy Uses Fire Beam, Ice Beam, or Bolt Beam",Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+10,Enemy Uses Magnitude8 or Giga Volt,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+11,Enemy Uses Blaster or Mind Blast,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+13,Enemy Uses Evil Toot or Disaster,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+14,Enemy Uses Pep Up or Exploder,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+15,Enemy Uses Stop or Net,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+16,Enemy Uses Doom or Condemned,Segment 4 - (WoR Start to Airship Get),4,4,Common Skills/Spells,
+17,Enemy Uses WWind or Cyclonic,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+18,Enemy Uses Step Mine or Blow Fish,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+19,Enemy Uses Blaster or Mind Blast,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+20,Enemy Uses R. Polarity or Phantasam,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+21,Enemy Uses Slide or Surge,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+22,Enemy Uses Sour Mouth or ChokeSmoke,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+23,Enemy Uses Revenge or Revenger,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+24,Enemy Uses Wild Bear or Pearl Wind,Segment 4 - (WoR Start to Airship Get),4,1,Rare Skills/Spells,
+25,Get Hit by a Zombie or Instant Death Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+26,Get Hit by a Haste or Slow Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+27,Get Hit by a Seizure or Regen Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+28,Get Hit by a Poison or Darkness Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+29,Get Hit by a Mute or Imp Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+30,Get Hit by a Confuse or Berserk Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+31,Get Hit by a Petrify or Stop Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+32,Get Hit by a Sleep or Morph Special,Segment 4 - (WoR Start to Airship Get),4,2,Enemy Specials,
+33,Have 99 Remedy,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+34,Have 99 Potion,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+35,Have 99 Dried Meat,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+36,Have 99 Green Cherry,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+37,Have 99 Soft,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+38,Have 99 Revivify,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+39,Have All 8 Tools,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+40,"Have 100,000gp",Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+41,Have 20 Warp Stone,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+42,Have 20 Tincture,Segment 4 - (WoR Start to Airship Get),4,2,Common Items/Resources,
+43,Have 3 X-Potion,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources,
+44,Have 2 X-Ether,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources,
+45,Have 3 Elixir,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources,
+46,Have 3 Ether,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources,
+47,Have 3 Magicite,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources,
+48,Have Super Ball,Segment 4 - (WoR Start to Airship Get),4,1,Uncommon Items/Resources,
+49,Have SwordBreaker or Man Eater,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+50,Have Dragon Claw or Pearl Lance,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+51,Have Doom Darts or Trump,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+52,Have Rage Ring or Blizzard Orb,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+53,Have all 6 Elemental Rods,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+54,Have Drainer or Soul Sabre,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+55,Have Light Robe or Tao Robe,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+56,Have Thornlet or Regal Crown,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+57,Have 5 Different Suits,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+58,Have all 4 Brushes,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+59,Have an Elemental Shield,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+60,Have Punisher or Heal Rod,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+61,Have Hero Ring or Dragon Horn,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+62,Have Genji Glove or Gauntlet,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+63,Have Czarina Gown or Pod Bracelet,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+64,Have Red Jacket or Red Cap,Segment 4 - (WoR Start to Airship Get),4,4,Common Equipment,
+65,Have Tiger Fangs or Aura Lance,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+66,Have Aura or Strato,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+67,Have a Full Crystal Armor Set,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+68,Have Dark Gear and Dark Hood,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+69,Have Gradeus or Magus Rod,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+70,Have Circlet or Coronet,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+71,Have Exp. Egg or Moogle Charm,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+72,Have Sky Render or Wing Edge,Segment 4 - (WoR Start to Airship Get),4,2,Uncommon Equipment,
+73,Check all Chests in Figaro Castle,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+74,Bet Something for ???? in Colisseum,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+75,Save Cid,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+76,Use Magicite in a Boss Battle,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+77,"See ""Need MP"" Message",Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+78,See a Weapon Proc,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+79,See an Enemy Die of Poison or Sap,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+80,Make Phunbaba Escape,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+81,Carve the Tomb Message in Daryl's Tomb,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+82,Defeat an Encounter on 5 Terrains,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+83,"Spend 75,000gp in One Purchase",Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+84,Revive 3 Types of Enemy to Death,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+85,Learn a New Spell from an Item,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+86,Check all Chests in South Figaro,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+87,Check all Chests in South Figaro Cave,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+88,Sell 3 Things for 1gp,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+89,See an Undead Enemy Reconstitute,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+90,Do 5000dmg or More in One Hit,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+91,Break 4 Different Items,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+92,Defeat 3 MiaB Encounters,Segment 4 - (WoR Start to Airship Get),4,5,Task Completions,
+93,Never Visit Tzen,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+94,Never Ride a Chocobo,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+95,Never Back Row a Character,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+96,Never Equip Ribbon,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+97,Never Equip a Weapon,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+98,Always Have 1 Relic Ring Equipped (When Able),Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+99,Never Equip Wall Ring,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+100,Never Cast Float,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+101,Everyone Always Has 1 Open Relic Slot,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+102,"Never Cast Cure, Cure 2, or Cure 3",Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+103,Never Equip an Esper,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+104,Never Cast Life or Life 2,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+105,Never Equip Safety Bit or Memento Ring,Segment 4 - (WoR Start to Airship Get),4,1,Other Conducts,
+106,Never Use Potion,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+107,Never Use X-Potion,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+108,Never Use Elixir,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+109,Never Use Smoke Bomb,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+110,Never Use Tincture,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+111,Never Use Warp Stone,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+112,Never Break an Item,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+113,Never Use Tent,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+114,Never Use Remedy,Segment 4 - (WoR Start to Airship Get),4,1,Use Conducts,
+115,Never Buy Relics,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts,
+116,Never Buy Armor,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts,
+117,Never Buy Weapons,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts,
+118,Never Buy Fenix Down,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts,
+119,Never Sell Anything,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts,
+120,Never Buy Tools,Segment 4 - (WoR Start to Airship Get),4,1,Shop Conducts,

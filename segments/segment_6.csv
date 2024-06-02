@@ -1,117 +1,117 @@
-index,square,segment,segment_index,choices,type
-0,Don't Game Over or Reset,Segment 6 - (6 Segments Complete to Final Dungeon),6,,free
-1,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-2,Enemy Uses Flare or Pearl,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-3,Enemy Uses WWind or Cyclonic,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-4,Enemy Uses Wild Bear or Pearl Wind,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-5,Enemy Uses Quake or Merton,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-6,Enemy Uses Aero or Storm,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-7,Enemy Uses Whump or Wombat,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-8,Enemy Uses Charm or Love Token,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-9,Enemy Uses Cold Dust or N. Cross,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-10,Enemy Uses Slide or Surge,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-11,Enemy Uses Bio Blast or S. Cross,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-12,Enemy Uses Absolute 0 or Meteo,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-13,Enemy Uses Step Mine or Blow Fish,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-14,Enemy Uses Flare Star or Quasar,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-15,Enemy Uses TekMissile or Cockatrice,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-16,Enemy Uses Dispel or Dischord,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells
-17,Enemy Uses WallChange or ForceField,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-18,Enemy Uses Train or GrandTrain,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-19,Enemy Uses Quick or HyperDrive,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-20,Enemy Uses Fallen One or Ultima,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-21,Enemy Uses Escape or Goner,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-22,Enemy Uses Rage or Shrapnel,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-23,Enemy Uses Overcast or X-Zone,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-24,Enemy Uses Meteor or Land Slide,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-25,Enemy Uses Delta Hit or Soul Out,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells
-26,Get Hit by a Zombie or Instant Death Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-27,Get Hit by a Haste or Slow Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-28,Get Hit by a Seizure or Regen Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-29,Get Hit by a Poison or Darkness Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-30,Get Hit by a Mute or Imp Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-31,Get Hit by a Confuse or Berserk Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-32,Get Hit by a Vanish or Image Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-33,Get Hit by a Petrify or Stop Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-34,Get Hit by a Sleep or Morph Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials
-35,Have 99 Remedy,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-36,Have 99 Sleeping Bag,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-37,Have 99 Tent,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-38,Have 99 Revivify,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-39,Have 99 Warp Stone,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-40,Have 99 Fenix Down,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-41,Have 99 of a Skean or Edge,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-42,Have 99 Tincture,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-43,"Have 99 Tonic, Dried Meat, and Potion",Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-44,Have 99 Ninja Star,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources
-45,Have 5 X-Potion,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
-46,Have 4 X-Ether,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
-47,Have 3 Super Ball,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
-48,Have 5 Elixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
-49,Have Megalixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
-50,"Have 999,999gp",Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources
-51,Have Tiger Fangs or Aura Lance,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-52,Have a Full Genji Armor Set,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-53,Have Gradeus or Magus Rod,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-54,Have Exp. Egg or Moogle Charm,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-55,Have Sky Render or Wing Edge,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-56,Have All 3 Elemental Shields,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-57,Have All 4 Pieces of Imp Gear,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-58,Have Striker or Stunner,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-59,Have Force Armor or Force Shield,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-60,Have Minerva or Aegis Shield,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-61,Have Marvel Shoes or Merit Award,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-62,Have Scimitar or Excalibur,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment
-63,Have ValiantKnife,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-64,Have Ragnarok,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-65,Have Fixed Dice,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-66,Have Illumina,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-67,Have Cursed Shld,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-68,Have Paladin Shld,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-69,Have Economizer,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-70,Have Offering,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-71,Have Snow Muffler,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment
-72,Get 255 Def/255 M Def with a Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-73,Bet Something for ???? in Colisseum,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-74,Get 128 Evade/128 M Block with a Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-75,Use Magicite in a Boss Battle,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-76,See an Enemy Die of Poison or Sap,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-77,"See ""Need MP"" Message",Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-78,Have 6 Buffs on One Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-79,Have all 14 Characters Recruited,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-80,Have the Zerker Kill 10 Enemies,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-81,Have All but 1 Esper Collected,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-82,Have a Character with 5000+ HP,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-83,Have a Zombied Character Kill an Enemy,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-84,"Gain 10,000+ EXP on one Character",Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-85,Have Tapir Wake up an Enemy or Ally,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-86,"Break a Relic, a Weapon and a Shield",Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-87,Defeat 6 Dinosaur Forest Encounters,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-88,Do 9999 dmg in One Hit,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-89,Sell 3 Things for 1gp,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-90,Have 6 Dragons Defeated,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-91,Defeat 3 MiaB Encounters,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-92,Kill an Enemy Using Exploder,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions
-93,Never Buy Fenix Down,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-94,Never Cast X-Zone,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-95,Never Summon an Esper in Combat,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-96,Never Back Row a Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-97,Always Have Open Character Slot,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-98,Never Equip a Weapon,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-99,Always Have 1 Relic Ring Equipped,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-100,Never Sell Anything,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-101,Never Equip Wall Ring,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-102,Never Cast Vanish or Phantom,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-103,Never Cast Float,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-104,Everyone Always Has 1 Open Relic Slot,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-105,"Never Cast Cure, Cure 2, or Cure 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-106,Never Cast Ultima,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-107,"Never Cast Life, Life 2, or Life 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-108,Never Equip Safety Bit or Memento Ring,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-109,Never Cast Osmose,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts
-110,Never Use X-Potion,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts
-111,Never Use Elixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts
-112,Never Use Tincture or Ether,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts
-113,Never Use Smoke Bomb or Warp Stone,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts
-114,Never Break an Item,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts
-115,Never Use Remedy,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts
+index,square,segment,segment_index,choices,type,help
+0,Don't Game Over or Reset,Segment 6 - (6 Segments Complete to Final Dungeon),6,,free,
+1,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+2,Enemy Uses Flare or Pearl,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+3,Enemy Uses WWind or Cyclonic,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+4,Enemy Uses Wild Bear or Pearl Wind,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+5,Enemy Uses Quake or Merton,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+6,Enemy Uses Aero or Storm,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+7,Enemy Uses Whump or Wombat,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+8,Enemy Uses Charm or Love Token,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+9,Enemy Uses Cold Dust or N. Cross,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+10,Enemy Uses Slide or Surge,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+11,Enemy Uses Bio Blast or S. Cross,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+12,Enemy Uses Absolute 0 or Meteo,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+13,Enemy Uses Step Mine or Blow Fish,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+14,Enemy Uses Flare Star or Quasar,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+15,Enemy Uses TekMissile or Cockatrice,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+16,Enemy Uses Dispel or Dischord,Segment 6 - (6 Segments Complete to Final Dungeon),6,4,Common Skills/Spells,
+17,Enemy Uses WallChange or ForceField,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+18,Enemy Uses Train or GrandTrain,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+19,Enemy Uses Quick or HyperDrive,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+20,Enemy Uses Fallen One or Ultima,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+21,Enemy Uses Escape or Goner,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+22,Enemy Uses Rage or Shrapnel,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+23,Enemy Uses Overcast or X-Zone,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+24,Enemy Uses Meteor or Land Slide,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+25,Enemy Uses Delta Hit or Soul Out,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Skills/Spells,
+26,Get Hit by a Zombie or Instant Death Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+27,Get Hit by a Haste or Slow Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+28,Get Hit by a Seizure or Regen Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+29,Get Hit by a Poison or Darkness Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+30,Get Hit by a Mute or Imp Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+31,Get Hit by a Confuse or Berserk Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+32,Get Hit by a Vanish or Image Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+33,Get Hit by a Petrify or Stop Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+34,Get Hit by a Sleep or Morph Special,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Enemy Specials,
+35,Have 99 Remedy,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+36,Have 99 Sleeping Bag,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+37,Have 99 Tent,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+38,Have 99 Revivify,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+39,Have 99 Warp Stone,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+40,Have 99 Fenix Down,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+41,Have 99 of a Skean or Edge,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+42,Have 99 Tincture,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+43,"Have 99 Tonic, Dried Meat, and Potion",Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+44,Have 99 Ninja Star,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Common Items/Resources,
+45,Have 5 X-Potion,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources,
+46,Have 4 X-Ether,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources,
+47,Have 3 Super Ball,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources,
+48,Have 5 Elixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources,
+49,Have Megalixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources,
+50,"Have 999,999gp",Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Uncommon Items/Resources,
+51,Have Tiger Fangs or Aura Lance,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+52,Have a Full Genji Armor Set,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+53,Have Gradeus or Magus Rod,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+54,Have Exp. Egg or Moogle Charm,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+55,Have Sky Render or Wing Edge,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+56,Have All 3 Elemental Shields,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+57,Have All 4 Pieces of Imp Gear,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+58,Have Striker or Stunner,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+59,Have Force Armor or Force Shield,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+60,Have Minerva or Aegis Shield,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+61,Have Marvel Shoes or Merit Award,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+62,Have Scimitar or Excalibur,Segment 6 - (6 Segments Complete to Final Dungeon),6,3,Uncommon Equipment,
+63,Have ValiantKnife,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+64,Have Ragnarok,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+65,Have Fixed Dice,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+66,Have Illumina,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+67,Have Cursed Shld,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+68,Have Paladin Shld,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+69,Have Economizer,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+70,Have Offering,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+71,Have Snow Muffler,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Rare Equipment,
+72,Get 255 Def/255 M Def with a Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+73,Bet Something for ???? in Colisseum,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+74,Get 128 Evade/128 M Block with a Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+75,Use Magicite in a Boss Battle,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+76,See an Enemy Die of Poison or Sap,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+77,"See ""Need MP"" Message",Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+78,Have 6 Buffs on One Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+79,Have all 14 Characters Recruited,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+80,Have the Zerker Kill 10 Enemies,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+81,Have All but 1 Esper Collected,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+82,Have a Character with 5000+ HP,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+83,Have a Zombied Character Kill an Enemy,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+84,"Gain 10,000+ EXP on one Character",Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+85,Have Tapir Wake up an Enemy or Ally,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+86,"Break a Relic, a Weapon and a Shield",Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+87,Defeat 6 Dinosaur Forest Encounters,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+88,Do 9999 dmg in One Hit,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+89,Sell 3 Things for 1gp,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+90,Have 6 Dragons Defeated,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+91,Defeat 3 MiaB Encounters,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+92,Kill an Enemy Using Exploder,Segment 6 - (6 Segments Complete to Final Dungeon),6,5,Task Completions,
+93,Never Buy Fenix Down,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+94,Never Cast X-Zone,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+95,Never Summon an Esper in Combat,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+96,Never Back Row a Character,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+97,Always Have Open Character Slot,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+98,Never Equip a Weapon,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+99,Always Have 1 Relic Ring Equipped,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+100,Never Sell Anything,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+101,Never Equip Wall Ring,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+102,Never Cast Vanish or Phantom,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+103,Never Cast Float,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+104,Everyone Always Has 1 Open Relic Slot,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+105,"Never Cast Cure, Cure 2, or Cure 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+106,Never Cast Ultima,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+107,"Never Cast Life, Life 2, or Life 3",Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+108,Never Equip Safety Bit or Memento Ring,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+109,Never Cast Osmose,Segment 6 - (6 Segments Complete to Final Dungeon),6,2,Other Conducts,
+110,Never Use X-Potion,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts,
+111,Never Use Elixir,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts,
+112,Never Use Tincture or Ether,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts,
+113,Never Use Smoke Bomb or Warp Stone,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts,
+114,Never Break an Item,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts,
+115,Never Use Remedy,Segment 6 - (6 Segments Complete to Final Dungeon),6,1,Use Conducts,

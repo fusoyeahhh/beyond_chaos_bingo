@@ -1,108 +1,108 @@
-index,square,segment,segment_index,choices,type
-0,Don't Game Over or Reset,Segment 7 - (Kefka's Tower),7,,free
-1,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-2,Enemy Uses Flare or Pearl,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-3,Enemy Uses WWind or Cyclonic,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-4,Enemy Uses Wild Bear or Pearl Wind,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-5,Enemy Uses Quake or Merton,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-6,Enemy Uses Aero or Storm,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-7,Enemy Uses Whump or Wombat,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-8,Enemy Uses Charm or Love Token,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-9,Enemy Uses Slide or Surge,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-10,Enemy Uses Bio Blast or S. Cross,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-11,Enemy Uses Absolute 0 or Meteo,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-12,Enemy Uses Dispel or Dischord,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-13,Enemy Uses Sour Mouth or ChokeSmoke,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-14,Enemy Uses Blaster or Mind Blast,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells
-15,Enemy Uses WallChange or ForceField,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-16,Enemy Uses Train or GrandTrain,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-17,Enemy Uses Quick or HyperDrive,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-18,Enemy Uses Fallen One or Ultima,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-19,Enemy Uses Escape or Goner,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-20,Enemy Uses Rage or Shrapnel,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-21,Enemy Uses Overcast or X-Zone,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-22,Enemy Uses Meteor or Land Slide,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-23,Enemy Uses Delta Hit or Soul Out,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-24,Enemy Uses Cold Dust or N. Cross,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-25,Enemy Uses TekMissile or Cokatrice,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-26,Enemy Uses Flare Star or Quasar,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells
-27,Get Hit by a Zombie or Instant Death Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-28,Get Hit by a Haste or Slow Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-29,Get Hit by a Freeze or Dance Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-30,Get Hit by a Poison or Darkness Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-31,Get Hit by a Mute or Imp Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-32,Get Hit by a Confuse or Berserk Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-33,Get Hit by a Petrify or Stop Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-34,Get Hit by a Sleep or Morph Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials
-35,Have a Full Genji Armor Set,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-36,Have All 4 Pieces of Imp Gear,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-37,Have Moogle Charm AND Charm Bangle,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-38,Have 2 Valiant Knife,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-39,Have 2 Fixed Dice,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-40,Have Genji Glove AND Offering,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-41,Have Gem Box AND Economizer,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-42,Have Snow Muffler AND Cat Hood,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-43,Have All 3 Elemental Shields,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-44,Have Ragnarok AND Illumina,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-45,Have Merit Award AND Marvel Shoes,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-46,Have Force Armor AND Force Shld,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-47,Have Paladin Shld AND Cursed Shld,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-48,Have Minerva AND Aegis Shld,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics
-49,Get 255 Def/255 M Def with a Character,Segment 7 - (Kefka's Tower),7,7,Task Completions
-50,Get 128 Evade/128 M Block with a Character,Segment 7 - (Kefka's Tower),7,7,Task Completions
-51,Use Magicite in a Boss Battle,Segment 7 - (Kefka's Tower),7,7,Task Completions
-52,See an Enemy Die of Poison or Sap,Segment 7 - (Kefka's Tower),7,7,Task Completions
-53,Learn Life 3 on a New Character,Segment 7 - (Kefka's Tower),7,7,Task Completions
-54,"See ""Need MP"" Message",Segment 7 - (Kefka's Tower),7,7,Task Completions
-55,Have 6 Buffs on One Character,Segment 7 - (Kefka's Tower),7,7,Task Completions
-56,Have the Zerker Kill 10 Enemies,Segment 7 - (Kefka's Tower),7,7,Task Completions
-57,Have all Espers Collected,Segment 7 - (Kefka's Tower),7,7,Task Completions
-58,Have a Character with 5000+ HP,Segment 7 - (Kefka's Tower),7,7,Task Completions
-59,Have a Zombied Character Kill an Enemy,Segment 7 - (Kefka's Tower),7,7,Task Completions
-60,Have Tapir Wake up an Enemy or Ally,Segment 7 - (Kefka's Tower),7,7,Task Completions
-61,"Break a Relic, an Armor and a Shield",Segment 7 - (Kefka's Tower),7,7,Task Completions
-62,Encounter a Boss Randomly or in a Chest,Segment 7 - (Kefka's Tower),7,7,Task Completions
-63,Do 9999 dmg in One Hit,Segment 7 - (Kefka's Tower),7,7,Task Completions
-64,Uncurse a Cursed Shld,Segment 7 - (Kefka's Tower),7,7,Task Completions
-65,Obtain the Secret Item,Segment 7 - (Kefka's Tower),7,7,Task Completions
-66,Defeat a Prometheus,Segment 7 - (Kefka's Tower),7,7,Task Completions
-67,Have a Zerker Use the Blizzard Orb Skill,Segment 7 - (Kefka's Tower),7,7,Task Completions
-68,Defeat an Enemy with Exploder,Segment 7 - (Kefka's Tower),7,7,Task Completions
-69,Attack 8 Times in 1 Turn with a Character,Segment 7 - (Kefka's Tower),7,7,Task Completions
-70,Use Crusader in a Boss Battle,Segment 7 - (Kefka's Tower),7,7,Task Completions
-71,Absorb 9999 dmg in One Hit,Segment 7 - (Kefka's Tower),7,7,Task Completions
-72,Use Palidor in a Boss Battle,Segment 7 - (Kefka's Tower),7,7,Task Completions
-73,Defeat 3 MiaB Encounters,Segment 7 - (Kefka's Tower),7,7,Task Completions
-74,Defeat Atma,Segment 7 - (Kefka's Tower),7,2,Boss Completions
-75,Defeat Inferno,Segment 7 - (Kefka's Tower),7,2,Boss Completions
-76,Defeat Guardian,Segment 7 - (Kefka's Tower),7,2,Boss Completions
-77,Defeat Doom,Segment 7 - (Kefka's Tower),7,2,Boss Completions
-78,Defeat Poltrgeist,Segment 7 - (Kefka's Tower),7,2,Boss Completions
-79,Defeat Goddess,Segment 7 - (Kefka's Tower),7,2,Boss Completions
-80,Never Summon an Esper in Combat,Segment 7 - (Kefka's Tower),7,1,Other Conducts
-81,Never Back Row a Character,Segment 7 - (Kefka's Tower),7,1,Other Conducts
-82,Always Have 1 Open Character Slot,Segment 7 - (Kefka's Tower),7,1,Other Conducts
-83,Always Have 1 Relic Ring Equipped,Segment 7 - (Kefka's Tower),7,1,Other Conducts
-84,Everyone Always Has 1 Open Relic Slot,Segment 7 - (Kefka's Tower),7,1,Other Conducts
-85,Always Have 1 Character Imp'ed,Segment 7 - (Kefka's Tower),7,1,Other Conducts
-86,Never Use Elixir,Segment 7 - (Kefka's Tower),7,1,Use Conducts
-87,Never Use Megalixir,Segment 7 - (Kefka's Tower),7,1,Use Conducts
-88,Never Use X-Potion,Segment 7 - (Kefka's Tower),7,1,Use Conducts
-89,Never Use X-Ether,Segment 7 - (Kefka's Tower),7,1,Use Conducts
-90,Never Use Remedy,Segment 7 - (Kefka's Tower),7,1,Use Conducts
-91,Never Break an Item,Segment 7 - (Kefka's Tower),7,1,Use Conducts
-92,Never Use Ether or Tincture,Segment 7 - (Kefka's Tower),7,1,Use Conducts
-93,Never Cast Quick,Segment 7 - (Kefka's Tower),7,1,Cast Conducts
-94,Never Cast Float,Segment 7 - (Kefka's Tower),7,1,Cast Conducts
-95,Never Cast Osmose,Segment 7 - (Kefka's Tower),7,1,Cast Conducts
-96,Never Cast Ultima,Segment 7 - (Kefka's Tower),7,1,Cast Conducts
-97,Never Cast Life or Life 2,Segment 7 - (Kefka's Tower),7,1,Cast Conducts
-98,Never Cast Life 3,Segment 7 - (Kefka's Tower),7,1,Cast Conducts
-99,Never Cast Cure 3,Segment 7 - (Kefka's Tower),7,1,Cast Conducts
-100,Never Equip Safety Bit or Memento Ring,Segment 7 - (Kefka's Tower),7,1,Equip Conducts
-101,Never Equip Ribbon,Segment 7 - (Kefka's Tower),7,1,Equip Conducts
-102,Never Equip Paladin Shld,Segment 7 - (Kefka's Tower),7,1,Equip Conducts
-103,Never Equip Economizer,Segment 7 - (Kefka's Tower),7,1,Equip Conducts
-104,Never Equip Moogle Charm,Segment 7 - (Kefka's Tower),7,1,Equip Conducts
-105,Never Equip Wall Ring,Segment 7 - (Kefka's Tower),7,1,Equip Conducts
-106,Never Equip Merit Award,Segment 7 - (Kefka's Tower),7,1,Equip Conducts
+index,square,segment,segment_index,choices,type,help
+0,Don't Game Over or Reset,Segment 7 - (Kefka's Tower),7,,free,
+1,"Enemy Uses Fire 3, Ice 3 or Bolt 3",Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+2,Enemy Uses Flare or Pearl,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+3,Enemy Uses WWind or Cyclonic,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+4,Enemy Uses Wild Bear or Pearl Wind,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+5,Enemy Uses Quake or Merton,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+6,Enemy Uses Aero or Storm,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+7,Enemy Uses Whump or Wombat,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+8,Enemy Uses Charm or Love Token,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+9,Enemy Uses Slide or Surge,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+10,Enemy Uses Bio Blast or S. Cross,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+11,Enemy Uses Absolute 0 or Meteo,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+12,Enemy Uses Dispel or Dischord,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+13,Enemy Uses Sour Mouth or ChokeSmoke,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+14,Enemy Uses Blaster or Mind Blast,Segment 7 - (Kefka's Tower),7,3,Common Skills/Spells,
+15,Enemy Uses WallChange or ForceField,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+16,Enemy Uses Train or GrandTrain,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+17,Enemy Uses Quick or HyperDrive,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+18,Enemy Uses Fallen One or Ultima,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+19,Enemy Uses Escape or Goner,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+20,Enemy Uses Rage or Shrapnel,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+21,Enemy Uses Overcast or X-Zone,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+22,Enemy Uses Meteor or Land Slide,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+23,Enemy Uses Delta Hit or Soul Out,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+24,Enemy Uses Cold Dust or N. Cross,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+25,Enemy Uses TekMissile or Cokatrice,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+26,Enemy Uses Flare Star or Quasar,Segment 7 - (Kefka's Tower),7,3,Rare Skills/Spells,
+27,Get Hit by a Zombie or Instant Death Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+28,Get Hit by a Haste or Slow Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+29,Get Hit by a Freeze or Dance Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+30,Get Hit by a Poison or Darkness Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+31,Get Hit by a Mute or Imp Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+32,Get Hit by a Confuse or Berserk Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+33,Get Hit by a Petrify or Stop Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+34,Get Hit by a Sleep or Morph Special,Segment 7 - (Kefka's Tower),7,2,Enemy Specials,
+35,Have a Full Genji Armor Set,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+36,Have All 4 Pieces of Imp Gear,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+37,Have Moogle Charm AND Charm Bangle,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+38,Have 2 Valiant Knife,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+39,Have 2 Fixed Dice,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+40,Have Genji Glove AND Offering,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+41,Have Gem Box AND Economizer,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+42,Have Snow Muffler AND Cat Hood,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+43,Have All 3 Elemental Shields,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+44,Have Ragnarok AND Illumina,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+45,Have Merit Award AND Marvel Shoes,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+46,Have Force Armor AND Force Shld,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+47,Have Paladin Shld AND Cursed Shld,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+48,Have Minerva AND Aegis Shld,Segment 7 - (Kefka's Tower),7,3,Equipment/Relics,
+49,Get 255 Def/255 M Def with a Character,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+50,Get 128 Evade/128 M Block with a Character,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+51,Use Magicite in a Boss Battle,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+52,See an Enemy Die of Poison or Sap,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+53,Learn Life 3 on a New Character,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+54,"See ""Need MP"" Message",Segment 7 - (Kefka's Tower),7,7,Task Completions,
+55,Have 6 Buffs on One Character,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+56,Have the Zerker Kill 10 Enemies,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+57,Have all Espers Collected,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+58,Have a Character with 5000+ HP,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+59,Have a Zombied Character Kill an Enemy,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+60,Have Tapir Wake up an Enemy or Ally,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+61,"Break a Relic, an Armor and a Shield",Segment 7 - (Kefka's Tower),7,7,Task Completions,
+62,Encounter a Boss Randomly or in a Chest,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+63,Do 9999 dmg in One Hit,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+64,Uncurse a Cursed Shld,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+65,Obtain the Secret Item,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+66,Defeat a Prometheus,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+67,Have a Zerker Use the Blizzard Orb Skill,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+68,Defeat an Enemy with Exploder,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+69,Attack 8 Times in 1 Turn with a Character,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+70,Use Crusader in a Boss Battle,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+71,Absorb 9999 dmg in One Hit,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+72,Use Palidor in a Boss Battle,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+73,Defeat 3 MiaB Encounters,Segment 7 - (Kefka's Tower),7,7,Task Completions,
+74,Defeat Atma,Segment 7 - (Kefka's Tower),7,2,Boss Completions,
+75,Defeat Inferno,Segment 7 - (Kefka's Tower),7,2,Boss Completions,
+76,Defeat Guardian,Segment 7 - (Kefka's Tower),7,2,Boss Completions,
+77,Defeat Doom,Segment 7 - (Kefka's Tower),7,2,Boss Completions,
+78,Defeat Poltrgeist,Segment 7 - (Kefka's Tower),7,2,Boss Completions,
+79,Defeat Goddess,Segment 7 - (Kefka's Tower),7,2,Boss Completions,
+80,Never Summon an Esper in Combat,Segment 7 - (Kefka's Tower),7,1,Other Conducts,
+81,Never Back Row a Character,Segment 7 - (Kefka's Tower),7,1,Other Conducts,
+82,Always Have 1 Open Character Slot,Segment 7 - (Kefka's Tower),7,1,Other Conducts,
+83,Always Have 1 Relic Ring Equipped,Segment 7 - (Kefka's Tower),7,1,Other Conducts,
+84,Everyone Always Has 1 Open Relic Slot,Segment 7 - (Kefka's Tower),7,1,Other Conducts,
+85,Always Have 1 Character Imp'ed,Segment 7 - (Kefka's Tower),7,1,Other Conducts,
+86,Never Use Elixir,Segment 7 - (Kefka's Tower),7,1,Use Conducts,
+87,Never Use Megalixir,Segment 7 - (Kefka's Tower),7,1,Use Conducts,
+88,Never Use X-Potion,Segment 7 - (Kefka's Tower),7,1,Use Conducts,
+89,Never Use X-Ether,Segment 7 - (Kefka's Tower),7,1,Use Conducts,
+90,Never Use Remedy,Segment 7 - (Kefka's Tower),7,1,Use Conducts,
+91,Never Break an Item,Segment 7 - (Kefka's Tower),7,1,Use Conducts,
+92,Never Use Ether or Tincture,Segment 7 - (Kefka's Tower),7,1,Use Conducts,
+93,Never Cast Quick,Segment 7 - (Kefka's Tower),7,1,Cast Conducts,
+94,Never Cast Float,Segment 7 - (Kefka's Tower),7,1,Cast Conducts,
+95,Never Cast Osmose,Segment 7 - (Kefka's Tower),7,1,Cast Conducts,
+96,Never Cast Ultima,Segment 7 - (Kefka's Tower),7,1,Cast Conducts,
+97,Never Cast Life or Life 2,Segment 7 - (Kefka's Tower),7,1,Cast Conducts,
+98,Never Cast Life 3,Segment 7 - (Kefka's Tower),7,1,Cast Conducts,
+99,Never Cast Cure 3,Segment 7 - (Kefka's Tower),7,1,Cast Conducts,
+100,Never Equip Safety Bit or Memento Ring,Segment 7 - (Kefka's Tower),7,1,Equip Conducts,
+101,Never Equip Ribbon,Segment 7 - (Kefka's Tower),7,1,Equip Conducts,
+102,Never Equip Paladin Shld,Segment 7 - (Kefka's Tower),7,1,Equip Conducts,
+103,Never Equip Economizer,Segment 7 - (Kefka's Tower),7,1,Equip Conducts,
+104,Never Equip Moogle Charm,Segment 7 - (Kefka's Tower),7,1,Equip Conducts,
+105,Never Equip Wall Ring,Segment 7 - (Kefka's Tower),7,1,Equip Conducts,
+106,Never Equip Merit Award,Segment 7 - (Kefka's Tower),7,1,Equip Conducts,
