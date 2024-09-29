@@ -266,7 +266,7 @@ class BCBingoBot(commands.Bot):
 
             with open(self._points_file, "w", newline="") as csvfile:
                 statewriter = csv.writer(csvfile, delimiter=",")
-                for name, pval in self._store.items():
+                for name, pval in self._pstate._store.items():
                     statewriter.writerow((name, str(pval)))
 
     def reset(self):
