@@ -4,6 +4,7 @@ import json
 import datetime
 import csv
 import random
+import pathlib
 
 from twitchio.ext import commands, routines
 
@@ -207,6 +208,9 @@ class BCBingoBot(commands.Bot):
         pts = {}
         if fname is None:
             return pts
+        fname = pathlib.Path(fname)
+        if not fname.exists():
+            fname.write_text("")
 
         with open(fname) as csvfile:
             ptreader = csv.reader(csvfile, delimiter=",")
