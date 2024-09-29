@@ -570,8 +570,18 @@ class BCBingoBot(commands.Bot):
     @commands.command(name='opensegment', aliases=["os"], cls=AuthorizedCommand)
     async def opensegment(self, ctx):
         """
-        !opensegment -> Opens the current segment for guesses.
+        !opensegment [segment number] -> Opens the current segment for guesses, optionally setting the segment number at that time.
         """
+        msg = ctx.message.content.split(" ")
+        try:
+            if len(msg) > 2:
+                raise ValueError
+            elif len(msg) == 2:
+                self._segment = int(msg[-1])
+        except ValueError:
+            log.error(f"Couldn't parse `opensegment` command: {ctx.message.content}")
+            return
+
         self._toggle = True
         await ctx.send(f"Guesses for segment {self._segment} are now OPEN.")
 
