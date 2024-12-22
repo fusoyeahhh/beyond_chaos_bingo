@@ -219,6 +219,13 @@ class BCBingoBot(commands.Bot):
 
         return pts
 
+    def save_points(self, fname):
+        fname = pathlib.Path(fname)
+        with open(fname, 'w') as csvfile:
+            ptwriter = csv.writer(csvfile, delimiter=",")
+            for user, pts in self._points.items():
+                ptwriter.writerow((user, str(pts)))
+
     def assign_points(self, gtype, value):
         winners = self._pstate.get_winners(gtype, value)
 
@@ -262,12 +269,9 @@ class BCBingoBot(commands.Bot):
             self._pstate.to_csv(self._tracking, game_state=game_state)
 
         if self._points_file is not None:
-            log.debug(f"Serializing points to {self._points_file}")
-
-            with open(self._points_file, "w", newline="") as csvfile:
-                statewriter = csv.writer(csvfile, delimiter=",")
-                for name, pval in self._pstate._store.items():
-                    statewriter.writerow((name, str(pval)))
+            #log.debug(f"Serializing points to {self._points_file}")
+            log.info(f"Serializing points to {self._points_file}")
+            self.save_points(self._points_file)
 
     def reset(self):
         self._pstate = PlayerSet()
