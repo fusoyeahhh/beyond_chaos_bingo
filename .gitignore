@@ -142,3 +142,4 @@ dmypy.json
 
 segments/*.txt
 current_bingo_state*
+bingo_points*
