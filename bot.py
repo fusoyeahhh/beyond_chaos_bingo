@@ -224,7 +224,8 @@ class BCBingoBot(commands.Bot):
         with open(fname, 'w') as csvfile:
             ptwriter = csv.writer(csvfile, delimiter=",")
             for user, pts in self._points.items():
-                ptwriter.writerow((user, str(pts)))
+                if user is not None:
+                    ptwriter.writerow((user, str(pts)))
 
     def assign_points(self, gtype, value):
         winners = self._pstate.get_winners(gtype, value)
