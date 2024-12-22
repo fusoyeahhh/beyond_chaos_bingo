@@ -8,6 +8,8 @@ import pathlib
 
 from twitchio.ext import commands, routines
 
+from bc_bingo import __version__
+
 import logging
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -171,6 +173,8 @@ class BCBingoBot(commands.Bot):
     GUESS_WINDOW = 60 * 10
 
     def __init__(self, config, segment=1, restore_from=None):
+        log.info(f"Initializing bot, BC Bingo version {__version__}")
+
         self._cfg = self.load_config(config)
         self._cfg["prefix"] = "!"
         log.info(f"Configuration:\n{self._cfg}")
@@ -270,8 +274,7 @@ class BCBingoBot(commands.Bot):
             self._pstate.to_csv(self._tracking, game_state=game_state)
 
         if self._points_file is not None:
-            #log.debug(f"Serializing points to {self._points_file}")
-            log.info(f"Serializing points to {self._points_file}")
+            log.debug(f"Serializing points to {self._points_file}")
             self.save_points(self._points_file)
 
     def reset(self):

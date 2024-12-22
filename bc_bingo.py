@@ -16,6 +16,8 @@ except ImportError:
           "pip install -r requirements.txt")
     sys.exit()
 
+__version__ = "0.1.8"
+
 class PreRenderedHtml(tags.HtmlTag):
     def __init__(self, html):
         super().__init__()
