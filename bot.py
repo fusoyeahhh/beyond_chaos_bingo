@@ -54,7 +54,7 @@ class PlayerSet:
     def from_csv(cls, fname, ptsfile=None):
         new = cls()
 
-        with open(fname) as csvfile:
+        with open(fname, newline='') as csvfile:
             statereader = csv.reader(csvfile, delimiter=",")
 
             for name, *row in statereader:
@@ -225,7 +225,7 @@ class BCBingoBot(commands.Bot):
 
     def save_points(self, fname):
         fname = pathlib.Path(fname)
-        with open(fname, 'w') as csvfile:
+        with open(fname, 'w', newline='') as csvfile:
             ptwriter = csv.writer(csvfile, delimiter=",")
             for user, pts in self._points.items():
                 if user is not None:
