@@ -32,6 +32,12 @@ def format_scoreboard(points, max_len=300):
             out.append(chunks.pop(0))
         yield " | ".join(out)
 
+def determine_overall_winner(points):
+    high_score = max(max(points.values()), 1)
+    winner = [k for k, v in points.items() if v == high_score]
+    winner = None if len(winner) == 0 else " and ".join(winner)
+    return winner
+
 def closest_not_over(guesses, value):
     ordered = {k: value - v for k, v in guesses.items() if value - v >= 0}
     log.debug(str(guesses))
@@ -618,6 +624,13 @@ class BCBingoBot(commands.Bot):
             except ValueError as e:
                 log.error(e)
                 return
+        elif self._segment == 7:
+            winner = determine_overall_winner(self._points) or "NOBODY"
+            winner_announce = f"And that's a wrap, folks! I do declare, " \
+                              f"{winner} is our winner! muppet1Lovester"
+            await ctx.send(winner_announce)
+            await self.scoreboard(ctx)
+            return
         else:
             self._segment += 1
 
