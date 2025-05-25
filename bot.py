@@ -48,7 +48,7 @@ def closest_not_over(guesses, value):
     return {k for k, v in ordered.items() if v == closest}
 
 class PlayerSet:
-    VALID_GUESS_TYPES = ["bingo", "miab", "deaths"]
+    VALID_GUESS_TYPES = ["bingo", "miab", "deaths", "kefkadeath"]
 
     ALLOWED_BINGO_GUESSES = sorted({
         *[f"c{i}" for i in range(1, 6)],
@@ -178,6 +178,7 @@ class BCBingoBot(commands.Bot):
         "bingo": 3,
         "miab": 1,
         "deaths": 1,
+        "kefkadeath": -8
     }
     GUESS_WINDOW = 60 * 10
 
@@ -217,6 +218,13 @@ class BCBingoBot(commands.Bot):
         self._points_file = opts.pop("points_file", None)
         return opts
 
+    def _get_streamer(self):
+        log.info(str(self._cfg))
+        return self._cfg.get(
+            "streamer",
+            self._cfg["initial_channels"][0].replace("#", "")
+        )
+
     def load_points(self, fname):
         pts = {}
         if fname is None:
@@ -241,7 +249,10 @@ class BCBingoBot(commands.Bot):
                     ptwriter.writerow((user, str(pts)))
 
     def assign_points(self, gtype, value):
-        winners = self._pstate.get_winners(gtype, value)
+        if gtype == "kefkadeath":
+            winners = {self._get_streamer()}
+        else:
+            winners = self._pstate.get_winners(gtype, value)
 
         for winner in winners:
             ptval = self._points.get(winner, 0) + self._POINTS_FOR[gtype]
@@ -534,7 +545,7 @@ class BCBingoBot(commands.Bot):
     @commands.command(name='deathcount', cls=AuthorizedCommand)
     async def deathcount(self, ctx):
         """
-        !deathcount --> [number|++]
+        !deathcount --> [number|++|kefka]
         """
         user = ctx.author.name
         value = ctx.message.content.split(" ")
@@ -542,6 +553,9 @@ class BCBingoBot(commands.Bot):
             value = value[1]
             if value == "++":
                 self.deaths += 1
+            elif value == "kefka":
+                log.info("Streamer takes a penalty for a death to Kefka")
+                self.assign_points("kefkadeath", None)
             else:
                 try:
                     self.deaths = int(value)
