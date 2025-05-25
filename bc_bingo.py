@@ -76,7 +76,7 @@ class BingoBoard:
             return [*csv.DictReader(csvfile)]
 
     def sample_pool(self, segment_index, seed=None):
-        random.seed(seed or self._seed)
+        random.seed((seed or self._seed) ^ segment_index)
         # get groupings and choices
         def pattr(elem):
             return (elem["type"], int(elem["choices"] or "1"))
