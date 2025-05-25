@@ -390,10 +390,6 @@ class BCBingoBot(commands.Bot):
         !guessbingo -> Guess which bingo will occur. Valid guesses are r{1-5}, c{1-5}, and du (lower corner left to upper corner right), dd (upper corner left to lower corner right). Use !guessbingo random to get a random line.
         """
         user = ctx.author.name
-        if not self._toggle:
-            await ctx.send(f"@{user}, I'm not accepting guesses right now.")
-            return
-
         if "drop" in ctx.message.content or "students" in ctx.message.content:
             await ctx.send(f"Hilarious as always, @{user}")
             return
@@ -402,6 +398,10 @@ class BCBingoBot(commands.Bot):
             _, value, *_ = ctx.message.content.split(" ")
 
             value = value.strip().lower()
+            if value != "random" and not self._toggle:
+                await ctx.send(f"@{user}, I'm not accepting guesses right now.")
+                return
+
             if value == "random":
                 value = random.choice(self._pstate.ALLOWED_BINGO_GUESSES)
 
